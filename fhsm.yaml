@@ -10,7 +10,7 @@ proxy-providers:
   node-all:
     type: http
     path: ./node-all.yaml
-    url: http://www.fhsm2015.com/clash/node-all.yaml
+    url: https://raw.githubusercontent.com/mzcorleone/clash/main/node-all.yaml
     interval: 3600
     health-check:
       enable: true
