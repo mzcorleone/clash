@@ -1,15 +1,12 @@
 #!/bin/sh
 
 echo ""
-echo "节点	http://www.fhsm2015.com/clash/node-all.yaml"
-echo "订阅	http://www.fhsm2015.com/clash/fhsm.yaml"
+echo "订阅 https://raw.githubusercontent.com/mzcorleone/clash/main/fhsm.yaml"
+echo "节点 https://paste.gg/p/aweikeji/b0bb7818ded7462f9b6504281f487d16/files/8f4d3c492dc54683a53e14a05cddc3af/raw"
 echo ""
 
-cd /Users/mz/.config/clash/
-# scp -r . root@144.202.66.164:/var/www/fhsm/clash/
-
-scp fhsm.yaml node-all.yaml root@144.202.66.164:/var/www/fhsm/clash/
-
-#scp fhsm.yaml root@144.202.66.164:/var/www/fhsm/clash/
+git add *
+git commit -m 'update nodes'
+git push
 
 exit
