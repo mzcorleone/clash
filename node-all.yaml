@@ -55,4 +55,3 @@ proxies:
   - {name: 韩国（阿伟） 5, server: kr02.mtoly.xyz, port: 46235, type: vmess, uuid: a16e7aa9-7021-3a78-bd82-4d5920ccaf6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ovo, headers: {Host: kr02.mtoly.xyz}}, udp: true}
   - {name: 俄罗斯（阿伟）, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: 82f947e0-79e5-4d87-a964-113b4f881865, udp: true}
   - {name: 德国（阿伟）, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d1.moonfree.top}}, udp: true}
-  - {name: 德国（阿伟） 2, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d1.moonfree.top}}, udp: true}ßß
