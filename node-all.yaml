@@ -1,57 +1,165 @@
 proxies:
-  - {name: 新加坡（阿伟）, server: fs.keaiyun.xyz, port: 48550, type: vmess, uuid: 0aebc864-b680-3ff9-ba91-27479c658201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 新加坡（阿伟） 2, server: ddns.easy2022.xyz, port: 48005, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 134679, udp: true}
-  - {name: 新加坡（阿伟） 3, server: cn1.iepl.starlink.st, port: 50500, type: ss, cipher: aes-128-gcm, password: 82f947e0-79e5-4d87-a964-113b4f881865, udp: true}
-  - {name: 新加坡（阿伟） 4, server: 20.212.197.126, port: 443, type: trojan, password: 12a1bf8b-8f39-4b06-82f5-3b6bd4d354f9, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（阿伟） 5, server: 20.212.197.126, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（阿伟） 6, server: 20.212.197.126, port: 443, type: trojan, password: 12a1bf8b-8f39-4b06-82f5-3b6bd4d354f9, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
-  - {name: 新加坡（阿伟） 7, server: fs.keaiyun.xyz, port: 48550, type: vmess, uuid: 0aebc864-b680-3ff9-ba91-27479c658201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: fs.keaiyun.xyz}}, udp: true}
-  - {name: 香港（阿伟）, server: sz6toh2k.26df6s89b.d5e31cv83.soabgo.com, port: 11591, type: vmess, uuid: 1AD7CB74-F19E-22E0-F5A6-C227CE5EE440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港（阿伟） 2, server: snode-14.nmp.pw, port: 11328, type: vmess, uuid: c30c1407-456f-4817-85f3-73f2e0d6ff9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港（阿伟） 3, server: hkml.fenglingcloud.com, port: 80, type: vmess, uuid: 5e4b27af-403f-44d4-9ff1-bdb2cb15fb9b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkml.fenglingcloud.com}}, udp: true}
-  - {name: 香港（阿伟） 4, server: hk03.mtoly.xyz, port: 46235, type: vmess, uuid: a16e7aa9-7021-3a78-bd82-4d5920ccaf6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ovo, headers: {Host: hk03.mtoly.xyz}}, udp: true}
-  - {name: 香港（阿伟） 5, server: hk01.mtoly.xyz, port: 46235, type: vmess, uuid: a16e7aa9-7021-3a78-bd82-4d5920ccaf6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ovo, headers: {Host: hk01.mtoly.xyz}}, udp: true}
-  - {name: 香港（阿伟） 6, server: cngzyd.bw.sbs, port: 51101, type: ss, cipher: chacha20-ietf-poly1305, password: 0b47d050-b3fd-41d8-849f-997c161b757b, udp: true}
-  - {name: 香港（阿伟） 7, server: cngz-hk.bw.sbs, port: 51101, type: ss, cipher: chacha20-ietf-poly1305, password: 0b47d050-b3fd-41d8-849f-997c161b757b, udp: true}
-  - {name: 香港（阿伟） 8, server: 40.83.89.223, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港（阿伟） 9, server: 0326hk01.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 0326hk01.fans8.xyz}}, udp: true}
-  - {name: 香港（阿伟） 10, server: hkml.fenglingcloud.com, port: 80, type: vmess, uuid: 9af85f53-bd9b-4656-963d-5cf949e18f68, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hkml.fenglingcloud.com}}, udp: true}
-  - {name: 台湾（阿伟）, server: ddns.easy2022.xyz, port: 48003, type: ss, cipher: chacha20-ietf-poly1305, password: !<str> 134679, udp: true}
-  - {name: 台湾（阿伟） 2, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
-  - {name: 日本（阿伟）, server: sz6toh2k.26df6s89b.d5e31cv83.soabgo.com, port: 11592, type: vmess, uuid: 1AD7CB74-F19E-22E0-F5A6-C227CE5EE440, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本（阿伟） 2, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: dfd4f3f6-22d0-40f0-857d-23ff4358164d, sni: nfjp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本（阿伟） 3, server: fs.keaiyun.xyz, port: 48520, type: vmess, uuid: 0aebc864-b680-3ff9-ba91-27479c658201, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /v2ray, headers: {Host: www.baidu.com}}, udp: true}
-  - {name: 日本（阿伟） 4, server: cn1.iepl.starlink.st, port: 50300, type: ss, cipher: aes-128-gcm, password: 82f947e0-79e5-4d87-a964-113b4f881865, udp: true}
-  - {name: 日本（阿伟） 5, server: 20.222.84.185, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
-  - {name: 日本（阿伟） 6, server: 20.222.84.185, port: 443, type: trojan, password: 12a1bf8b-8f39-4b06-82f5-3b6bd4d354f9, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
-  - {name: 日本（阿伟） 7, server: 20.210.254.74, port: 80, type: vmess, uuid: 12a1bf8b-8f39-4b06-82f5-3b6bd4d354f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.php, headers: {Host: telelink.cc}}, udp: true}
-  - {name: 日本（阿伟） 8, server: 20.210.254.74, port: 80, type: vmess, uuid: 12a1bf8b-8f39-4b06-82f5-3b6bd4d354f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.php, headers: {Host: 20.210.254.74}}, udp: true}
-  - {name: 日本（阿伟） 9, server: 20.210.254.74, port: 80, type: vmess, uuid: b345dea8-d232-4aa5-8bec-517f78f986e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.php, headers: {Host: telelink.cc}}, udp: true}
-  - {name: 日本（阿伟） 10, server: 155.248.206.3, port: 25079, type: vmess, uuid: 20c2666d-8afd-4940-c3f3-744d7c7503e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本（阿伟） 11, server: gy-hk.fenglingcloud.com, port: 29002, type: ss, cipher: chacha20-ietf-poly1305, password: 9af85f53-bd9b-4656-963d-5cf949e18f68, udp: true}
-  - {name: 日本（阿伟） 12, server: 20.210.254.74, port: 80, type: vmess, uuid: b345dea8-d232-4aa5-8bec-517f78f986e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.php, headers: {Host: 20.210.254.74}}, udp: true}
-  - {name: 日本 （阿伟）, server: 20.222.84.185, port: 443, type: trojan, password: 12a1bf8b-8f39-4b06-82f5-3b6bd4d354f9, sni: certificate.telelink.cc, skip-cert-verify: true, udp: true}
-  - {name: 欧洲（阿伟）, server: oz.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oz.moonfree.top}}, udp: true}
-  - {name: 美国（阿伟）, server: za02.holiganfan.com, port: 10088, type: trojan, password: 222495d5-b01e-4037-baf4-2d8ff19c9228, sni: za02.holiganfan.com, skip-cert-verify: true, udp: true}
-  - {name: 美国（阿伟） 2, server: v2ray.ifuckgfw.ga, port: 8443, type: vmess, uuid: ecb634c2-b3c3-11ec-876b-5254001b7b42, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /yUxLk70F/, headers: {Host: v2ray.ifuckgfw.ga}}, udp: true}
-  - {name: 美国（阿伟） 3, server: us2.mtoly.xyz, port: 46235, type: vmess, uuid: a16e7aa9-7021-3a78-bd82-4d5920ccaf6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ovo, headers: {Host: us2.mtoly.xyz}}, udp: true}
-  - {name: 美国（阿伟） 4, server: tky.xrenblog.com, port: 18888, type: vmess, uuid: b51eb7f5-1d97-48fb-d344-9d774f9422df, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog, headers: {Host: tky.xrenblog.com}}, udp: true}
-  - {name: 美国（阿伟） 5, server: nfus.qingyun123.xyz, port: 10050, type: trojan, password: dfd4f3f6-22d0-40f0-857d-23ff4358164d, sni: nfus.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 美国（阿伟） 6, server: li.xiaohui867.tk, port: 17051, type: vmess, uuid: cfc5ef31-eb74-416a-9658-75bf5f73a6a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美国（阿伟） 7, server: li.xiaohui867.tk, port: 17051, type: vmess, uuid: cfc5ef31-eb74-416a-9658-75bf5f73a6a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 美国（阿伟） 8, server: jx.samshui.cn, port: 20245, type: trojan, password: 5m4TPMV6UO, sni: sg.samsui.space, skip-cert-verify: true, udp: true}
-  - {name: 美国（阿伟） 9, server: fhcamd1.gaox.ml, port: 443, type: trojan, password: e23f408a-012e-4030-8b31-02022031cb50, sni: fhcamd1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 美国（阿伟） 10, server: cnsz-hk.bw.sbs, port: 55101, type: ss, cipher: chacha20-ietf-poly1305, password: 0b47d050-b3fd-41d8-849f-997c161b757b, udp: true}
-  - {name: 美国（阿伟） 11, server: cngzyd.bw.sbs, port: 55102, type: ss, cipher: chacha20-ietf-poly1305, password: 0b47d050-b3fd-41d8-849f-997c161b757b, udp: true}
-  - {name: 美国（阿伟） 12, server: cn1.iepl.starlink.st, port: 50600, type: ss, cipher: aes-128-gcm, password: 82f947e0-79e5-4d87-a964-113b4f881865, udp: true}
-  - {name: 美国（阿伟） 13, server: cloudflare.xrenblog.com, port: 443, type: vmess, uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /sakura/, headers: {Host: v4.xrenblog.com}}, udp: true}
-  - {name: 美国（阿伟） 14, server: 104.19.62.119, port: 443, type: vmess, uuid: e40d2888-03f6-4859-e84d-a743db763d52, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: broken-snow-9bc0.nhv111202.workers.dev}}, udp: true}
-  - {name: 美国（阿伟） 15, server: gy-hk.fenglingcloud.com, port: 29003, type: ss, cipher: chacha20-ietf-poly1305, password: 9af85f53-bd9b-4656-963d-5cf949e18f68, udp: true}
-  - {name: 美国（阿伟） 16, server: us2.mtoly.xyz, port: 46235, type: vmess, uuid: a16e7aa9-7021-3a78-bd82-4d5920ccaf6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ovo, headers: {Host: us2.mtoly.xyz}}, udp: true}
-  - {name: 韩国（阿伟）, server: li.xiaohui867.tk, port: 20033, type: vmess, uuid: bc3bbba3-ccd9-4317-be9b-cbdf936e4409, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 韩国（阿伟） 2, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: d7ff202a-7f5b-4190-93cb-92e086d2ebdc, sni: kr1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: 韩国（阿伟） 3, server: cn1.iepl.starlink.st, port: 50400, type: ss, cipher: aes-128-gcm, password: 82f947e0-79e5-4d87-a964-113b4f881865, udp: true}
-  - {name: 韩国（阿伟） 4, server: 20.194.18.187, port: 80, type: vmess, uuid: a17ad3d8-6b83-4a57-8e4a-98b8be9fe72e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /index.php, headers: {Host: telelink.cc}}, udp: true}
-  - {name: 韩国（阿伟） 5, server: kr02.mtoly.xyz, port: 46235, type: vmess, uuid: a16e7aa9-7021-3a78-bd82-4d5920ccaf6d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ovo, headers: {Host: kr02.mtoly.xyz}}, udp: true}
-  - {name: 俄罗斯（阿伟）, server: cn1.iepl.starlink.st, port: 50700, type: ss, cipher: aes-128-gcm, password: 82f947e0-79e5-4d87-a964-113b4f881865, udp: true}
-  - {name: 德国（阿伟）, server: v6d1.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: v6d1.moonfree.top}}, udp: true}
+  - {name: 中国（阿伟） 14, server: v3-node60.mimemi-y7ez.com, port: 13124, type: ssr, cipher: aes-256-ctr, password: mimemi, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 9525:QxHsQf, obfs-param: hk2sch70d9e9525.wns.windows.com, udp: true}
+  - {name: 中国（阿伟） 24, server: ti5mulix.nodeinfo.icu, port: 6020, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 25, server: vieghei0.nodeinfo.icu, port: 6018, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 26, server: ie2ohyai.nodeinfo.icu, port: 6008, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 27, server: iemath0i.nodeinfo.icu, port: 1114, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 28, server: lae2keu8.nodeinfo.icu, port: 2102, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 29, server: einoo4ai.nodeinfo.icu, port: 1115, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 30, server: duqu2yai.nodeinfo.icu, port: 2103, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 31, server: ohm9aizu.nodeinfo.icu, port: 1122, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 32, server: eek8yahv.nodeinfo.icu, port: 2110, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 33, server: yeet4iel.nodeinfo.icu, port: 2104, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 34, server: aezee4ea.nodeinfo.icu, port: 6011, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 35, server: uthaez1i.nodeinfo.icu, port: 1113, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 36, server: cstwrelay.onlineto.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 37, server: cstwrelay.onlineto.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 38, server: cstwrelay.onlineto.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 39, server: cstwrelay.onlineto.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 40, server: cstwrelay.onlineto.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 41, server: cusouthcmhk.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 42, server: el2ohqua.nodeinfo.icu, port: 2111, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 43, server: cstwrelay.onlineto.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 44, server: phi4thuo.nodeinfo.icu, port: 1116, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 45, server: aedah1ch.nodeinfo.icu, port: 1130, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 46, server: shonlinesandcu03.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 47, server: cusouthcmhk.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 48, server: shonlinesandcu02.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 49, server: cncusouth.procncon.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 50, server: cstwrelay.onlineto.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 51, server: shallaz.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 52, server: shallaz2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 53, server: shallaz2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 54, server: shallaz2.proconcn.xyz, port: 566, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 55, server: shallaz2.proconcn.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 56, server: shallaz2.proconcn.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 57, server: shallaz2.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 58, server: usastandard.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 59, server: shallaz2.proconcn.xyz, port: 565, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 60, server: usastandard.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 61, server: usastandard2.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 62, server: gz1.52168.xyz, port: 1101, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 149:gt9img0d2jp, obfs-param: ee821149.baidu.com, udp: true}
+  - {name: 中国（阿伟） 63, server: csdynhkt.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 64, server: csdynhkt.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 65, server: phaiqu4l.nodeinfo.icu, port: 1112, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: 中国（阿伟） 66, server: cusouthcmhk.procncon.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 67, server: shonlinesandcu03.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 68, server: cncusouth.procncon.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 69, server: shallaz.proconcn.xyz, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 70, server: shallaz.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 71, server: usastandard.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 72, server: usastandard.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 73, server: usastandard.proconcn.xyz, port: 564, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 74, server: usastandard2.proconcn.xyz, port: 561, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 75, server: usastandard2.proconcn.xyz, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 76, server: usastandard2.proconcn.xyz, port: 563, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 77, server: cstwrelay.onlineto.xyz, port: 567, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: 中国（阿伟） 78, server: iepl-gz.yyuuii.cyou, port: 64112, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 中国（阿伟） 79, server: gzyd-01.yyuuii.cyou, port: 20003, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 中国（阿伟） 80, server: iepl-gz.yyuuii.cyou, port: 10899, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 中国（阿伟） 81, server: iepl-gz.yyuuii.cyou, port: 15658, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 中国（阿伟） 82, server: 101.67.8.192, port: 25179, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 中国（阿伟） 83, server: gzyd-01.yyuuii.cyou, port: 20002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 中国（阿伟） 84, server: gzyd-01.yyuuii.cyou, port: 30002, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 中国（阿伟） 85, server: iepl-hn01.qqgg.work, port: 20399, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 中国（阿伟） 86, server: iepl-hn01.qqgg.work, port: 21637, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 英国（阿伟） 2, server: yin1.qingyun123.xyz, port: 10000, type: trojan, password: 2db6ef97-b9d3-47b5-8995-8ccbb4e62447, sni: yin1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 英国（阿伟） 3, server: 185.167.117.171, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 英国（阿伟） 4, server: 185.167.117.171, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 英国（阿伟） 5, server: 152.89.210.84, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 英国（阿伟） 6, server: 185.167.117.171, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 英国（阿伟） 7, server: 152.89.210.84, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: 英国（阿伟） 8, server: 185.167.117.171, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 英国（阿伟） 9, server: 185.167.117.171, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 英国（阿伟） 10, server: 152.89.210.84, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 英国（阿伟） 11, server: 185.167.117.171, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
+  - {name: 英国（阿伟） 12, server: 185.167.117.171, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 英国（阿伟） 13, server: 185.167.117.171, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: 英国（阿伟） 14, server: 185.167.117.171, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 英国（阿伟） 15, server: 185.167.117.171, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: 英国（阿伟） 16, server: 152.89.210.84, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 英国（阿伟） 17, server: 185.167.117.171, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
+  - {name: 英国（阿伟） 18, server: 152.89.210.105, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: 香港（阿伟） 5, server: hknf2.qingyun123.xyz, port: 10070, type: trojan, password: 61f6e51b-904d-42ec-9a6f-0c6559202cc6, sni: hknf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 台湾（阿伟）, server: tw01.xniuniu888.club, port: 30139, type: vmess, uuid: ef41958c-c145-3363-a332-20e9ec5e8a5c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾（阿伟） 2, server: 331tw.fans8.xyz, port: 443, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /ray, headers: {Host: 331tw.fans8.xyz}}, udp: true}
+  - {name: 瑞士（阿伟）, server: 185.126.116.125, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 瑞士（阿伟） 2, server: 185.126.116.125, port: 9007, type: ss, cipher: aes-256-cfb, password: kSPmvwdFzGMMW5pY, udp: true}
+  - {name: 瑞士（阿伟） 3, server: 185.126.116.125, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: 瑞士（阿伟） 4, server: 185.126.116.125, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 瑞士（阿伟） 5, server: ch-1.safetelescope.cc, port: 48000, type: ssr, cipher: aes-256-cfb, password: hGkQ6915tD, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 37380:k4VJ9SyAu3, obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 美国（阿伟） 2, server: 88.218.94.22, port: 29988, type: vmess, uuid: e020b92c-b4ee-11ec-a479-00163c4358f0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /x6UiVPhJ/, headers: {Host: wsclash2.free4444.xyz}}, udp: true}
+  - {name: 美国（阿伟） 3, server: ws3.free4444.xyz, port: 28224, type: vmess, uuid: 85f0b66a-b6cd-11ec-b094-0025907ca65e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /swE4FfbR/, headers: {Host: ws3.free4444.xyz}}, udp: true}
+  - {name: 美国（阿伟） 7, server: sgp.xrenblog.com, port: 18888, type: vmess, uuid: 6731a7a4-cac0-4218-d3e7-a4fe8c933b5a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /xrenblog, headers: {Host: sgp.xrenblog.com}}, udp: true}
+  - {name: 美国（阿伟） 8, server: 149.28.66.87, port: 22135, type: vmess, uuid: 92cf0366-bcca-11ec-8cef-560003f2ffbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /i7qcJo6E/, headers: {Host: 149.28.66.87}}, udp: true}
+  - {name: 美国（阿伟） 9, server: aead.tls.sksupersususu.dnsfree.top, port: 80, type: vmess, uuid: 44d62787-1cbf-42aa-99d7-21e9bcdb1c24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: aead.tls.sksupersususu.dnsfree.top}}, udp: true}
+  - {name: 美国（阿伟） 10, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: 04d83e9e-d6ff-49ca-9c32-082b9b9c9c54, skip-cert-verify: true, udp: true}
+  - {name: 美国（阿伟） 11, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国（阿伟） 12, server: tt1.tjvpn.top, port: 2022, type: trojan, password: 0cb2cd1f-870b-485c-914a-60aba39eed39, skip-cert-verify: true, udp: true}
+  - {name: 美国（阿伟） 13, server: uscera.moonfree.top, port: 443, type: vmess, uuid: 861e9cd0-cd1d-4f8c-b7d9-b47409dda333, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uscera.moonfree.top}}, udp: true}
+  - {name: 美国（阿伟） 14, server: us2.lolvps.xyz, port: 60061, type: vmess, uuid: bf9a1ef0-9e68-447b-ae58-6617b2eedffa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /MI3W3NM8, headers: {Host: us2.lolvps.xyz}}, udp: true}
+  - {name: 美国（阿伟） 15, server: 142.4.127.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/310910211916, headers: {Host: www.47727450.xyz}}, udp: true}
+  - {name: 美国（阿伟） 16, server: niaop.tk, port: 443, type: vmess, uuid: a0b0df87-bda2-440e-830f-347da6cc7760, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /wsssdr1, headers: {Host: niaop.tk}}, udp: true}
+  - {name: 美国（阿伟） 17, server: 149.28.66.87, port: 22135, type: vmess, uuid: 92cf0366-bcca-11ec-8cef-560003f2ffbb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /i7qcJo6E/, headers: {Host: 149.28.66.87}}, udp: true}
+  - {name: 美国（阿伟） 18, server: 207.246.94.28, port: 42383, type: vmess, uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国（阿伟） 19, server: 45.66.157.212, port: 10077, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: 美国（阿伟） 20, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: 美国（阿伟） 21, server: 104.16.162.16, port: 2053, type: vmess, uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /eisasqa, headers: {Host: foxus.fovi.tk}}, udp: true}
+  - {name: 美国（阿伟） 22, server: rbmf.speedcncnforward3.tk, port: 10004, type: trojan, password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c, skip-cert-verify: true, udp: true}
+  - {name: 美国（阿伟） 23, server: ray.waitlight.top, port: 443, type: vmess, uuid: 84e2ab8e-1456-4457-9e6c-136cfffd2ec7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /WqkDfX, headers: {Host: ray.waitlight.top}}, udp: true}
+  - {name: 美国（阿伟） 24, server: 45.142.157.69, port: 40002, type: ssr, cipher: dummy, password: sealplus001, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 美国（阿伟） 25, server: 154.3.6.247, port: 40000, type: ssr, cipher: dummy, password: banana@@, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 美国（阿伟） 26, server: clash3.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 美国（阿伟） 27, server: clash2.free4444.xyz, port: 443, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 美国（阿伟） 28, server: 45.142.157.69, port: 40002, type: ssr, cipher: dummy, password: sealplus001, protocol: auth_chain_a, obfs: plain, protocol-param: "", obfs-param: ajax.microsoft.com, udp: true}
+  - {name: 荷兰（阿伟） 2, server: 213.183.51.172, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 荷兰（阿伟） 3, server: 213.183.51.172, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: 荷兰（阿伟） 4, server: 213.183.51.172, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: 荷兰（阿伟） 5, server: 213.183.51.172, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
+  - {name: 荷兰（阿伟） 6, server: 213.183.51.172, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: 荷兰（阿伟） 7, server: 213.183.51.172, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 荷兰（阿伟） 8, server: 213.183.51.172, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: 荷兰（阿伟） 9, server: 213.183.51.172, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 韩国（阿伟）, server: krnf2.qingyun123.xyz, port: 10050, type: trojan, password: 61f6e51b-904d-42ec-9a6f-0c6559202cc6, sni: krnf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯（阿伟）, server: 213.183.53.177, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
+  - {name: 俄罗斯（阿伟） 2, server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 俄罗斯（阿伟） 3, server: 213.183.53.177, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: 俄罗斯（阿伟） 4, server: 213.183.53.177, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: 俄罗斯（阿伟） 5, server: 213.183.53.177, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
+  - {name: 俄罗斯（阿伟） 6, server: 213.183.53.177, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 俄罗斯（阿伟） 7, server: 213.183.53.200, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 俄罗斯（阿伟） 8, server: 213.183.53.177, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: 俄罗斯（阿伟） 9, server: 213.183.53.177, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: 俄罗斯（阿伟） 10, server: 213.183.53.177, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
+  - {name: 俄罗斯（阿伟） 11, server: 213.183.53.200, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 俄罗斯（阿伟） 12, server: 213.183.53.200, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: 俄罗斯（阿伟） 13, server: 213.183.53.200, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: 俄罗斯（阿伟） 14, server: 213.183.53.200, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
+  - {name: 俄罗斯（阿伟） 15, server: 213.183.53.200, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: 俄罗斯（阿伟） 16, server: 213.183.53.200, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: 俄罗斯（阿伟） 17, server: 213.183.53.177, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
+  - {name: 俄罗斯（阿伟） 18, server: 213.183.53.200, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
+  - {name: 俄罗斯（阿伟） 19, server: 213.183.53.200, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: 俄罗斯（阿伟） 20, server: 213.183.53.177, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 俄罗斯（阿伟） 21, server: 213.183.53.177, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: 俄罗斯（阿伟） 22, server: 213.183.53.200, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: 俄罗斯（阿伟） 23, server: 213.183.53.177, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
+  - {name: 俄罗斯（阿伟） 24, server: 213.183.53.177, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: 俄罗斯（阿伟） 30, server: 213.183.53.200, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: 波兰（阿伟） 2, server: 217.30.10.66, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: 波兰（阿伟） 3, server: 217.30.10.68, port: 9073, type: ss, cipher: aes-256-cfb, password: daFYagqDdBdA6VTX, udp: true}
+  - {name: 波兰（阿伟） 5, server: 217.30.10.66, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
+  - {name: 澳大利亚（阿伟）, server: ausyd.onlineqitv-ns.xyz, port: 543, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 58185:tyson.cool, obfs-param: "", udp: true}
+  - {name: Super香港游戏01, server: loe5aeno.nodeinfo.icu, port: 520, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: S5香港08| IEPL |, server: aemoo9wi.nodeinfo.icu, port: 7008, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: S5香港07| IEPL |, server: jaibio5c.nodeinfo.icu, port: 7007, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: S5香港06| IEPL |, server: iqu5ujio.nodeinfo.icu, port: 7006, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: S4全解·香港07| IEPL |, server: hee4bieh.nodeinfo.icu, port: 2107, type: ssr, cipher: aes-256-cfb, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: S3全解·新加坡07| IEPL |, server: eer9iqu7.nodeinfo.icu, port: 1003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: S3全解·香港21| MIEPL |, server: aic5ucu1.nodeinfo.icu, port: 6021, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: S3全解·香港17| IEPL |, server: inu8azei.nodeinfo.icu, port: 6017, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: S3全解·香港10| IEPL |, server: thoo6foh.nodeinfo.icu, port: 6010, type: ssr, cipher: chacha20-ietf, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: S3全解·香港03| MIEPL |, server: wu3gadam.nodeinfo.icu, port: 6003, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: S3全解·日本02| IEPL |, server: wi6ru6zo.nodeinfo.icu, port: 6302, type: ssr, cipher: rc4-md5, password: di15PV, protocol: auth_aes128_md5, obfs: plain, protocol-param: 157106:6eAcZ9, obfs-param: 0a63f157106.www.gov.hk, udp: true}
+  - {name: RO_1184_18_51Mb_75, server: 185.126.116.125, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: LT_906_33_26Mb_45, server: 213.183.53.200, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
