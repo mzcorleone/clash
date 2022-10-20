@@ -5,8 +5,14 @@ echo "订阅 https://raw.githubusercontent.com/mzcorleone/clash/main/fhsm.yaml"
 echo "节点 https://raw.githubusercontent.com/mzcorleone/clash/main/node-all.yaml"
 echo ""
 
+echo "Add to git repository"
 git add *
 git commit -m 'update nodes'
+
+echo "Push to GitHub"
 git push
+
+echo "Push to GitEE:15623586833:maga2024"
+git push origin2
 
 exit
