@@ -10,7 +10,6 @@ proxy-providers:
   node-all:
     type: http
     path: ./node-all.yaml
-    url: https://gitee.com/maga2024/clash/raw/main/node-all.yaml
     interval: 3600
     health-check:
       enable: true
