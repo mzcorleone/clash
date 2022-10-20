@@ -4,14 +4,21 @@ echo ""
 echo "订阅 https://raw.githubusercontent.com/mzcorleone/clash/main/fhsm.yaml"
 echo "节点 https://raw.githubusercontent.com/mzcorleone/clash/main/node-all.yaml"
 echo ""
+echo "https://gitee.com/maga2024/clash/raw/main/fhsm.yaml"
+echo ""
 
+echo ""
 echo "Add to git repository"
 git add *
 git commit -m 'update nodes'
 
+echo ""
+echo ""
 echo "Push to GitHub"
 git push
 
+echo ""
+echo ""
 echo "Push to GitEE:15623586833:maga2024"
 git push origin2
 
