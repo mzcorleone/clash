@@ -17,9 +17,9 @@ echo ""
 echo "Push to GitHub"
 git push
 
-echo ""
-echo ""
-echo "Push to GitEE:15623586833:maga2024"
-git push origin2
+# echo ""
+# echo ""
+# echo "Push to GitEE:15623586833:maga2024"
+# git push origin2
 
 exit
