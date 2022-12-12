@@ -1836,7 +1836,7 @@ rules:
 # 自定义部分 #
  - DOMAIN-SUFFIX,amazon.com,亚马逊
  - DOMAIN-SUFFIX,amazon.com.mx,亚马逊
-  - DOMAIN-SUFFIX,amazon.ca,亚马逊
+ - DOMAIN-SUFFIX,amazon.ca,亚马逊
  - DOMAIN-SUFFIX,amazon.co.uk,亚马逊
  - DOMAIN-SUFFIX,amazon.de,亚马逊
  - DOMAIN-SUFFIX,amazon.fr,亚马逊
@@ -1845,8 +1845,8 @@ rules:
  - DOMAIN-SUFFIX,amazon.nl,亚马逊
  - DOMAIN-SUFFIX,amazon.co.jp,亚马逊
  - DOMAIN-SUFFIX,amazon.cn,亚马逊
-  - DOMAIN-SUFFIX,amazon.in,亚马逊
- - DOMAIN-SUFFIX,amazon.com.au,亚马逊 
+ - DOMAIN-SUFFIX,amazon.in,亚马逊
+ - DOMAIN-SUFFIX,amazon.com.au,亚马逊
  - DOMAIN-SUFFIX,amazon.sg,亚马逊
  - DOMAIN-SUFFIX,amazon.com.br,亚马逊
  - DOMAIN-SUFFIX,amazon.sa,亚马逊
