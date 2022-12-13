@@ -1851,24 +1851,15 @@ rules:
  - DOMAIN-SUFFIX,amazon.com.br,亚马逊
  - DOMAIN-SUFFIX,amazon.sa,亚马逊
  - DOMAIN-SUFFIX,amazon.ae,亚马逊
- - DOMAIN, atv-ps.amazon.com,国外媒体
- - DOMAIN, fls-na.amazon.com,国外媒体
- - DOMAIN-SUFFIX, media-amazon.com,国外媒体
- - DOMAIN-SUFFIX,images-amazon.com,🌍 全球直连
- - DOMAIN-SUFFIX,amazon.co.jp,全局选择
- - DOMAIN-SUFFIX,amazonaws.com,全局选择
- - DOMAIN-SUFFIX,amazonaws.co.uk,国外媒体
- - DOMAIN-SUFFIX,amazonaws.com,国外媒体
- - DOMAIN-SUFFIX,amazonvideo.com,国外媒体
- - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,国外媒体
- - DOMAIN-SUFFIX,execute-api.ap-southeast-1.amazonaws.com,国外媒体
- - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,国外媒体
- - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com,国外媒体
- - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,国外媒体
- - DOMAIN,s3-ap-southeast-1.amazonaws.com,国外媒体
- - DOMAIN-SUFFIX,tidal-cms.s3.amazonaws.com,国外媒体
- - DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com,国外媒体
- - DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com,国外媒体
+ - DOMAIN, atv-ps.amazon.com,亚马逊
+ - DOMAIN, fls-na.amazon.com,亚马逊
+ - DOMAIN-SUFFIX, media-amazon.com,亚马逊
+ - DOMAIN-SUFFIX,images-amazon.com,亚马逊
+ - DOMAIN-SUFFIX,amazonaws.com,亚马逊
+ - DOMAIN-SUFFIX,amazonaws.co.uk,亚马逊
+ - DOMAIN-SUFFIX,amazonaws.com,亚马逊
+ - DOMAIN-SUFFIX,amazonvideo.com,亚马逊
+ - DOMAIN-KEYWORD,mercadolibre,🌍 全球直连
  - DOMAIN-SUFFIX,ntdtv.com,国外媒体
  - DOMAIN-SUFFIX,epochtimes.com,国外媒体
  - DOMAIN-SUFFIX,rumble.com,国外媒体
