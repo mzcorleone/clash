@@ -1860,6 +1860,7 @@ rules:
  - DOMAIN-SUFFIX,amazonaws.com,亚马逊
  - DOMAIN-SUFFIX,amazonvideo.com,亚马逊
  - DOMAIN-KEYWORD,mercadolibre,🌍 全球直连
+ - DOMAIN-KEYWORD,damaishuju,🌍 全球直连
  - DOMAIN-SUFFIX,ntdtv.com,国外媒体
  - DOMAIN-SUFFIX,epochtimes.com,国外媒体
  - DOMAIN-SUFFIX,rumble.com,国外媒体
