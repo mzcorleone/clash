@@ -1868,5 +1868,6 @@ rules:
  - DOMAIN-SUFFIX,xiaxiaoqiang.net,国外媒体
  - DOMAIN-SUFFIX,duckduckgo.com,国外媒体
  - DOMAIN-SUFFIX,quan.media,国外媒体
- - DOMAIN-SUFFIX,truthsocial.com,国外媒体 
+ - DOMAIN-SUFFIX,truthsocial.com,国外媒体
+ - DOMAIN-SUFFIX,woaici.com,国外媒体
  - MATCH,漏网之鱼
