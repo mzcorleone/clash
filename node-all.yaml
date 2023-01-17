@@ -35,4 +35,3 @@ proxies:
   - {name: 越南A1, server: news.microsoft.com, port: 443, type: vmess, uuid: 17b2a313-37a0-4945-a8e4-e63375506b4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /A2DJOPFT, headers: {Host: lg10.cfcdn1.xyz}}, udp: true}
   - {name: 俄罗斯1, server: ru.kxswa.tk, port: 57358, type: vmess, uuid: c0b30a88-9050-4853-93fe-ac89fb4af5e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /kxswa, headers: {Host: ru.kxswa.tk}}, udp: true}
   - {name: 泰国1, server: zj.zhuanfa.tk, port: 33396, type: vmess, uuid: 9516d40f-e00a-4ac1-b89e-d0bd77fd3f9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-ssl.cf}}, udp: true}
