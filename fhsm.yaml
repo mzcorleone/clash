@@ -1833,6 +1833,7 @@ rules:
  - IP-CIDR,101.198.192.0/19,🌍 全球直连,no-resolve
  - IP-CIDR,101.199.196.0/22,🌍 全球直连,no-resolve
  - GEOIP,CN,🌍 全球直连
+ 
 # 自定义部分 #
  - DOMAIN-SUFFIX,amazon.com,亚马逊
  - DOMAIN-SUFFIX,amazon.com.mx,亚马逊
@@ -1872,4 +1873,8 @@ rules:
  - DOMAIN-SUFFIX,woaici.com,国外媒体
  - DOMAIN-SUFFIX,breitbart.com,国外媒体
  - DOMAIN-SUFFIX,openai.com,国外媒体
+ - DOMAIN-SUFFIX,flickr.com,国外媒体
+ - DOMAIN-SUFFIX,imgur.com,国外媒体
+ 
+ # 自定义部分 #
  - MATCH,漏网之鱼
