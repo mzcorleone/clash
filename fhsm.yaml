@@ -1871,4 +1871,5 @@ rules:
  - DOMAIN-SUFFIX,truthsocial.com,国外媒体
  - DOMAIN-SUFFIX,woaici.com,国外媒体
  - DOMAIN-SUFFIX,breitbart.com,国外媒体
+ - DOMAIN-SUFFIX,openai.com,国外媒体
  - MATCH,漏网之鱼
