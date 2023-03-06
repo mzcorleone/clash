@@ -65,7 +65,13 @@ proxy-groups:
     url: 'https://telegram.org/'
     interval: 3000
     use:
-      - node-all       
+      - node-all     
+  - name: ♻️ ChatGTP
+    type: url-test
+    url: 'https://chat.openai.com'
+    interval: 3000
+    use:
+      - node-all      
   - name: 🌍 全球直连
     type: select
     proxies:
@@ -143,6 +149,12 @@ proxy-groups:
       - 🚀 节点选择
       - ⏳ 亚马逊
       - ♻️ 亚马逊
+      - 🌍 全球直连
+  - name: ChatGPT
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ ChatGTP
       - 🌍 全球直连
   - name: 漏网之鱼
     type: select
@@ -1872,9 +1884,9 @@ rules:
  - DOMAIN-SUFFIX,truthsocial.com,国外媒体
  - DOMAIN-SUFFIX,woaici.com,国外媒体
  - DOMAIN-SUFFIX,breitbart.com,国外媒体
- - DOMAIN-SUFFIX,openai.com,国外媒体
  - DOMAIN-SUFFIX,flickr.com,国外媒体
  - DOMAIN-SUFFIX,imgur.com,国外媒体
+ - DOMAIN-SUFFIX,openai.com,ChatGPT
  
  # 自定义部分 #
  - MATCH,漏网之鱼
