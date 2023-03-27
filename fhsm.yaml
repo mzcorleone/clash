@@ -66,8 +66,8 @@ proxy-groups:
     interval: 3000
     use:
       - node-all     
-  - name: ♻️ ChatGTP
-    type: url-test
+  - name: 🚀 ChatGTP
+    type: select
     url: 'https://chat.openai.com'
     interval: 3000
     use:
