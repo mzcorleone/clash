@@ -154,7 +154,7 @@ proxy-groups:
     type: select
     proxies:
       - 🚀 节点选择
-      - ♻️ ChatGTP
+      - 🚀 ChatGTP
       - 🌍 全球直连
   - name: 漏网之鱼
     type: select
