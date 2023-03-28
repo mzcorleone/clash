@@ -54,14 +54,14 @@ proxy-groups:
     interval: 3000
     use:
       - node-all
-  - name: ♻️ 推特
-    type: url-test
+  - name: 🚀 推特
+    type: select
     url: 'https://twitter.com/'
     interval: 3000
     use:
       - node-all   
-  - name: ♻️ 电报信息
-    type: url-test
+  - name: 🚀 电报信息
+    type: select
     url: 'https://telegram.org/'
     interval: 3000
     use:
@@ -110,21 +110,12 @@ proxy-groups:
   - name: 电报信息
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 电报信息
-      - 🔂 失败切换
-      - ⏳ 负载均衡
+      - 🚀 电报信息
       - 🌍 全球直连
-      - 🚫 禁止访问
   - name: 推特
     type: select
     proxies:
-      - 🚀 节点选择
-      - ♻️ 推特
-      - 🔂 失败切换
-      - ⏳ 负载均衡
-      - 🌍 全球直连
-      - 🚫 禁止访问
+      - 🚀 推特
   - name: 微软服务
     type: select
     proxies:
