@@ -115,6 +115,7 @@ proxy-groups:
   - name: 推特
     type: select
     proxies:
+      - 🚀 节点选择
       - 🚀 推特
   - name: 微软服务
     type: select
