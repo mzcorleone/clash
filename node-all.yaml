@@ -20,8 +20,6 @@ proxies:
   - {"type":"vmess","name":"🇩🇪DE德国_11","ws-opts":{"path":"/","headers":{"host":"de01-cdn.airport-v2.com"}},"server":"223.167.41.49","port":"63084","uuid":"7feb22ed-8283-3313-a09f-c5dc1402333b","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"ssr","name":"🇫🇷FR法国_1","server":"fr-am1-5.eqsunshine.com","port":8181,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"RcfVcDzzB"}
   - {"type":"vmess","name":"🇫🇷FR法国_2","http-opts":{"path":["/"],"headers":{"Host":["zula.ir"]}},"server":"asintech--id-telegram.duckdns.org","port":"11002","uuid":"aa410999-f9c3-4eb6-a929-5b7eff9764c5","alterId":"0","cipher":"auto","network":"http"}
-  - {"type":"ssr","name":"🇭🇰HK香港_1","server":"43.154.56.244","port":56193,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"3456467"}
-  - {"type":"ssr","name":"🇭🇰HK香港2","server":"103.39.79.113","port":50798,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"345344233"}
   - {"type":"ssr","name":"🇭🇰HK香港_1","server":"8.210.193.64","port":50358,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"234345g5g"}
   - {"type":"vmess","name":"🇭🇰HK香港_2","ws-opts":{"path":"/aws-china-media/QAcTKp3Ic-M.mp4","headers":{"host":"sd-wan-hk-2.cloudspeed.online"}},"server":"sd-wan-hk-2.cloudspeed.online","port":"80","uuid":"12b6c675-edc3-4da8-b3e2-525f4ccdd3f3","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"ssr","name":"🇭🇰HK香港_2","server":"103.39.79.113","port":50798,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"345344233"}
@@ -36,6 +34,8 @@ proxies:
   - {"type":"ssr","name":"🇭🇰HK香港_11","server":"8.218.250.230","port":55323,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"34534fe4"}
   - {"type":"ssr","name":"🇭🇰HK香港_12","server":"8.218.237.40","port":51908,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"34545r4r"}
   - {"type":"ssr","name":"🇭🇰HK香港_15","server":"8.218.188.108","port":57282,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"92388323"}
+  - {"type":"ssr","name":"🇭🇰HK香港_16","server":"43.154.56.244","port":56193,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"3456467"}
+  - {"type":"ssr","name":"🇭🇰HK香港_17","server":"103.39.79.113","port":50798,"protocol":"auth_chain_a","cipher":"dummy","obfs":"tls1.2_ticket_auth","password":"345344233"}
   - {"type":"vmess","name":"🇯🇵JP日本_2","ws-opts":{"path":"/shirker","headers":{"host":"jp.scproxy.top"}},"server":"cf-lt.sharecentre.online","port":"80","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"🇯🇵JP日本_3","server":"jp02-vm0.entry.srthdw.art","port":"448","uuid":"1bc52308-0bd9-30d0-90fd-cef337875d10","alterId":"1","cipher":"auto","network":"tcp"}
   - {"type":"vmess","name":"🇳🇱NL荷兰_2","ws-opts":{"path":"/shirker","headers":{"host":"nl.sharecentrepro.com"}},"server":"tech.noaries.de","port":"80","uuid":"2d5d8b9c-8ec4-4a37-b610-78e71e13eaef","alterId":"0","cipher":"auto","network":"ws"}
