@@ -1864,7 +1864,7 @@ rules:
  - DOMAIN-SUFFIX,amazonaws.co.uk,亚马逊
  - DOMAIN-SUFFIX,amazonaws.com,亚马逊
  - DOMAIN-SUFFIX,amazonvideo.com,亚马逊
- # 自定义部分 #
+# 自定义部分 #
  - DOMAIN-SUFFIX,ntdtv.com,国外媒体
  - DOMAIN-SUFFIX,epochtimes.com,国外媒体
  - DOMAIN-SUFFIX,rumble.com,国外媒体
@@ -1881,10 +1881,10 @@ rules:
  - DOMAIN-SUFFIX,imgur.com,国外媒体
  - DOMAIN-SUFFIX,openai.com,ChatGPT
  - DOMAIN-SUFFIX,yahoo.com,国外媒体
-  - DOMAIN-SUFFIX,yimg.com,国外媒体
-  # 自定义部分 #
+ - DOMAIN-SUFFIX,yimg.com,国外媒体
+# 自定义部分 #
  - DOMAIN-KEYWORD,mercadolibre,🌍 全球直连
  - DOMAIN-KEYWORD,damaishuju,🌍 全球直连
  
- # 自定义部分 #
+# 自定义部分 #
  - MATCH,漏网之鱼
