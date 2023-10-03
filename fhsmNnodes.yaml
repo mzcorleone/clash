@@ -197,4 +197,3 @@ proxies:
   - {"name":"🇺🇸_US_美国_YUI_156","type":"vmess","server":"23.224.255.173","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1696155431738","headers":{"host":"www.53638055.xyz"}}}
   - {"name":"🇺🇸_US_美国_YUI_157","type":"vmess","server":"107.148.203.4","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1696251522438","headers":{"host":"www.13364896.xyz"}}}
   - {"name":"🇺🇸_US_美国_YUI_158","type":"vmess","server":"198.200.56.85","port":443,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":true,"skip-cert-verify":true,"network":"ws","ws-opts":{"path":"/path/1696155431738","headers":{"host":"www.65510817.xyz"}}}
-proxy-groups:
