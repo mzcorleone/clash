@@ -9,7 +9,7 @@ external-controller: :9090
 proxy-providers:
   node-all:
     type: http
-    path: ./node-all.yaml
+    path: ./fhsmNnodes.yaml
 #    url: https://raw.githubusercontent.com/mzcorleone/clash/main/node-all.yaml
     url: https://cdn.jsdelivr.net/gh/mzcorleone/clash/fhsmNnodes.yaml
     interval: 3600
