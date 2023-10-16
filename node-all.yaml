@@ -3,9 +3,9 @@ proxies:
   - {"type":"ssr","name":"🇫🇷FR法国_A5","server":"fr-am1-5.eqsunshine.com","port":8181,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"RcfVcDzzB","protocol-param":"Non%%"}
   - {"type":"ssr","name":"🇸🇬SG新加坡_A1","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME","protocol-param":"None"}
   - {"type":"ssr","name":"🇸🇬SG新加坡_A2","server":"sg-am3.eqsunshine.com","port":32001,"protocol":"origin","cipher":"aes-256-cfb","obfs":"tls1.2_ticket_auth","password":"3g0dHlKME","obfs-param":"None","protocol-param":"None"}
-  - {name: 美国(玉豆), server: bwcko7z.olb8qsg.top, port: 32453, type: ss, cipher: chacha20-ietf-poly1305, password: e7f92bf0-6945-41e4-8bbd-ebfe080d745a, udp: true}
-  - {name: 美国(玉豆) 2, server: bwcko7z.olb8qsg.top, port: 32453, type: ss, cipher: chacha20-ietf-poly1305, password: 597a5a14-77c6-4ef3-88c1-6cb2531c9dc9, udp: true}
-  - {name: 法国(玉豆) 4, server: hdfy1d1.cpi2hidd.eu.org, port: 443, type: vmess, uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: hdfy1d1.cpi2hidd.eu.org, grpc-opts: {grpc-service-name: kWNsYSByc82sNvvsPqovsnh}, udp: true}
+  - {name: 美国(玉豆) A1, server: bwcko7z.olb8qsg.top, port: 32453, type: ss, cipher: chacha20-ietf-poly1305, password: e7f92bf0-6945-41e4-8bbd-ebfe080d745a, udp: true}
+  - {name: 美国(玉豆) A2, server: bwcko7z.olb8qsg.top, port: 32453, type: ss, cipher: chacha20-ietf-poly1305, password: 597a5a14-77c6-4ef3-88c1-6cb2531c9dc9, udp: true}
+  - {name: 法国(玉豆) A4, server: hdfy1d1.cpi2hidd.eu.org, port: 443, type: vmess, uuid: b2fbaeb0-e27b-4434-a8e3-9c5ad41885e6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: grpc, servername: hdfy1d1.cpi2hidd.eu.org, grpc-opts: {grpc-service-name: kWNsYSByc82sNvvsPqovsnh}, udp: true}
  
  - {name: 美国(玉), server: 104.17.27.2, port: 80, type: vmess, uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: my2.gamedaylion.buzz}, udp: true}
  - {name: 美国(玉) 2, server: 104.17.27.2, port: 80, type: vmess, uuid: 72d46152-ee0b-4610-efb1-ffb0f786b848, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: my2.gamedaylion.buzz}, udp: true}
