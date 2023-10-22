@@ -27,50 +27,50 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com
-    interval: 3000
+    interval: 6000
     tolerance: 50
     use:
       - node-all
   - name: 🔂 失败切换
     type: fallback
     url: 'http://www.google.com'
-    interval: 3000
+    interval: 6000
     use:
       - node-all
   - name: ⏳ 负载均衡
     type: load-balance
     url: 'http://www.google.com'
-    interval: 3000
+    interval: 6000
     use:
       - node-all
   - name: ♻️ 亚马逊
     type: url-test
     url: 'https://www.amazon.com'
-    interval: 3000
+    interval: 6000
     use:
       - node-all
   - name: ⏳ 亚马逊
     type: load-balance
     url: 'https://www.amazon.com'
-    interval: 3000
+    interval: 6000
     use:
       - node-all
   - name: 🚀 推特
     type: select
     url: 'https://twitter.com/'
-    interval: 3000
+    interval: 6000
     use:
       - node-all   
   - name: 🚀 电报信息
     type: select
     url: 'https://telegram.org/'
-    interval: 3000
+    interval: 6000
     use:
       - node-all     
   - name: 🚀 ChatGTP
     type: select
     url: 'https://chat.openai.com'
-    interval: 3000
+    interval: 6000
     use:
       - node-all      
   - name: 🌍 全球直连
