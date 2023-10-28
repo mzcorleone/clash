@@ -1,76 +1,103 @@
 proxies:
   - {name: 美国(豆), server: us01.shawbrothersstudio.com, port: 19922, type: ss, cipher: chacha20-ietf-poly1305, password: Lam6mgI0ZnIqT459CTTOJR, udp: true}
-  - {"name":"中国_1","type":"ss","server":"hefei.chiguayun.cc","port":27128,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_2","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10706,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_3","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10701,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_4","type":"ss","server":"foshan.chiguayun.cc","port":27147,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_5","type":"ss","server":"hefei.chiguayun.cc","port":27147,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_6","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10722,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_7","type":"ss","server":"hefei.chiguayun.cc","port":27110,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"加拿大_1","type":"trojan","server":"108.181.22.161","port":443,"udp":true,"password":"39a211c5-504a-4aaa-bf78-3380f586ce30","sni":"glc-us2.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中国_9","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10702,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_10","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10703,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"加拿大_2","type":"trojan","server":"108.181.24.37","port":443,"udp":true,"password":"39a211c5-504a-4aaa-bf78-3380f586ce30","sni":"glc-us1.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"越南_1","type":"trojan","server":"103.173.255.234","port":443,"udp":true,"password":"39a211c5-504a-4aaa-bf78-3380f586ce30","sni":"glc-vn.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"越南_2","type":"trojan","server":"103.81.85.238","port":443,"udp":true,"password":"39a211c5-504a-4aaa-bf78-3380f586ce30","sni":"glc-vn.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中国_11","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10723,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_12","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10704,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_13","type":"ss","server":"hefei.chiguayun.cc","port":27133,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_14","type":"ss","server":"foshan.chiguayun.cc","port":27119,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_16","type":"ss","server":"hefei.chiguayun.cc","port":27108,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_17","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10714,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_18","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10715,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_19","type":"ss","server":"foshan.chiguayun.cc","port":27121,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_20","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10718,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_21","type":"ss","server":"us01.shawbrothersstudio.com","port":19922,"password":"Lam6mgI0ZnIqT459CTTOJR","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_22","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10711,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国_13","type":"trojan","server":"141.193.68.81","port":443,"udp":true,"password":"39a211c5-504a-4aaa-bf78-3380f586ce30","sni":"glc-us3.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中国_23","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10713,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_24","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10712,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_25","type":"ss","server":"hefei.chiguayun.cc","port":27145,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_26","type":"ss","server":"foshan.chiguayun.cc","port":27137,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_27","type":"ss","server":"foshan.chiguayun.cc","port":27140,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"美国_11","type":"vmess","server":"se5.shabijichang.com","port":80,"cipher":"auto","uuid":"56278a1a-c7cc-459f-b00c-3037e4f99590","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"se5.shabijichang.com"}}}
-  - {"name":"中国_28","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10717,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_29","type":"ss","server":"hefei.chiguayun.cc","port":27140,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_30","type":"ss","server":"hefei.chiguayun.cc","port":27142,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_31","type":"ss","server":"hefei.chiguayun.cc","port":27143,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_32","type":"ss","server":"foshan.chiguayun.cc","port":27144,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_33","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10720,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_34","type":"ss","server":"hefei.chiguayun.cc","port":27126,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_35","type":"ss","server":"foshan.chiguayun.cc","port":27130,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_36","type":"ss","server":"foshan.chiguayun.cc","port":27139,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_37","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10721,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_39","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10716,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_42","type":"ss","server":"fs.xianyuwangluo.cyou","port":27201,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_43","type":"ss","server":"hefei.chiguayun.cc","port":27123,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_41","type":"ss","server":"foshan.chiguayun.cc","port":27123,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"塞舌尔","type":"vmess","server":"156.251.226.106","port":1111,"cipher":"auto","uuid":"701a0cda-32c5-4c63-9bea-9e8dcc4a8541","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vm?ed=2048","headers":{"host":"chunchuan.kxking.eu.org"}}}
-  - {"name":"中国_44","type":"ss","server":"jh.xianyuwangluo.cyou","port":27201,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_45","type":"ss","server":"jh.xianyuwangluo.cyou","port":27206,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_46","type":"ss","server":"fs.xianyuwangluo.cyou","port":27205,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_47","type":"ss","server":"fs.xianyuwangluo.cyou","port":27206,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_49","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10709,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_50","type":"ss","server":"fs.xianyuwangluo.cyou","port":27203,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_51","type":"ss","server":"jh.xianyuwangluo.cyou","port":27202,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_52","type":"ss","server":"fs.xianyuwangluo.cyou","port":27202,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_77","type":"ss","server":"hk12.shawbrothersstudio.com","port":28405,"password":"15204ecd-a305-4a85-8dfd-debf3aedd97e","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_55","type":"ss","server":"foshan.chiguayun.cc","port":27120,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_53","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10719,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_54","type":"ss","server":"fs.xianyuwangluo.cyou","port":27208,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_56","type":"ss","server":"jh.xianyuwangluo.cyou","port":27208,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"德国_2","type":"trojan","server":"89.163.220.99","port":443,"udp":true,"password":"39a211c5-504a-4aaa-bf78-3380f586ce30","sni":"glc-de1.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中国_61","type":"vmess","server":"111.38.37.245","port":50205,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/debian","headers":{"host":"111.38.37.245"}}}
-  - {"name":"中国_62","type":"ss","server":"fs.xianyuwangluo.cyou","port":27209,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_63","type":"ss","server":"fs.xianyuwangluo.cyou","port":27210,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_64","type":"ss","server":"jh.xianyuwangluo.cyou","port":27204,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_66","type":"ss","server":"jh.xianyuwangluo.cyou","port":27210,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_67","type":"ss","server":"jh.xianyuwangluo.cyou","port":27209,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
   - {"name":"中国_68","type":"ss","server":"hk.shawbrothersstudio.com","port":19921,"password":"r1Rivb0NOPyab8gI828uG7","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_69","type":"ss","server":"hefei.chiguayun.cc","port":27121,"password":"9f7ceb7e-ea9b-488c-9d82-2e0cb2872d74","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_71","type":"ss","server":"jh.xianyuwangluo.cyou","port":27207,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"中国_72","type":"ss","server":"fs.xianyuwangluo.cyou","port":27207,"password":"ad0edc4e-eb8f-4761-b40c-a564e15c2a64","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"香港_28","type":"trojan","server":"download1hkt.windowsupdatea.com","port":443,"udp":true,"password":"39a211c5-504a-4aaa-bf78-3380f586ce30","sni":"glc-hkt1.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"台湾","type":"trojan","server":"download1tw.windowsupdatea.com","port":443,"udp":true,"password":"39a211c5-504a-4aaa-bf78-3380f586ce30","sni":"glc-tw1.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"香港_29","type":"trojan","server":"download2hkt.windowsupdatea.com","port":443,"udp":true,"password":"39a211c5-504a-4aaa-bf78-3380f586ce30","sni":"glc-hkt2.windowsupdatea.com","skip-cert-verify":true,"network":"tcp"}
-  - {"name":"中国_76","type":"ss","server":"yidong.liulangdiqiu.cyou","port":10726,"password":"51180a8d-845e-425b-a884-37e181054093","cipher":"chacha20-ietf-poly1305"}
+  - {name: US_师_1, server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: ece26ec7-bcfe-4845-8cf1-3d93abc19ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/nYAwpBbW, ws-headers: {Host: us5a3a71b5c.pkmkwvxqnn.xyz}, udp: true}
+  - {name: CN_师_2, server: ep.superjj.cc, port: 50041, type: ss, cipher: chacha20-ietf-poly1305, password: 4988f2ef-5909-46c6-b63c-4caba7e28be9, udp: true}
+  - {name: US_师_3, server: 198.2.193.146, port: 30000, type: vmess, uuid: 68d238ce-3ca1-46dc-b833-a0916c829ad3, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1698239888914, ws-headers: {Host: www.28251658.xyz}, udp: true}
+  - {name: CN_师_4, server: gz.daxun.cyou, port: 26043, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_师_5, server: us.kunlun-ppg.com, port: 10823, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: us.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_6, server: other.kunlun-ppg.com, port: 10847, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_7, server: other.kunlun-ppg.com, port: 10840, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_8, server: us.binguo.link, port: 10821, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: us.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: CN_师_9, server: us.binguo.link, port: 10824, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: us.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: ZA_师_10, server: 0000:0000:0000:0000:0000:ffff:ceee:ed02, port: 443, type: vmess, uuid: 72943368-c361-4c09-ac31-8e2866cc0d72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: tarik2.freedns.click}, udp: true}
+  - {name: US_师_11, server: 156.225.67.104, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1698239888914, ws-headers: {Host: www.41758112.xyz}, udp: true}
+  - {name: CN_师_12, server: other.binguo.link, port: 10840, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: CN_师_13, server: gz.daxun.cyou, port: 38017, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_师_14, server: other.binguo.link, port: 10847, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: CN_师_15, server: other.kunlun-ppg.com, port: 10840, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: US_师_16, server: 156.225.67.234, port: 30000, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1698239888914, ws-headers: {Host: www.47734647.xyz}, udp: true}
+  - {name: US_师_17, server: 192.203.230.229, port: 2052, type: vmess, uuid: a4c481f0-1cf1-47b2-bf66-ab563daa29ba, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/public?ed=2048", ws-headers: {Host: de3.biqibao.site}, udp: true}
+  - {name: DE_师_18, server: 35.157.14.187, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: CN_师_19, server: gz.daxun.cyou, port: 27034, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZA_师_21, server: 0000:0000:0000:0000:0000:ffff:ceee:ed02, port: 443, type: vmess, uuid: 72943368-c361-4c09-ac31-8e2866cc0d72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: tarik2.freedns.click}, udp: true}
+  - {name: CN_师_22, server: aws.daxun.cyou, port: 38888, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /daxun/us1, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: CN_师_23, server: aws.daxun.cyou, port: 38889, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /daxun/us2, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: CN_师_24, server: gz.daxun.cyou, port: 38007, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_师_25, server: aws.daxun.cyou, port: 38887, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /daxun/us3, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: CN_师_26, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_27, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_28, server: other.binguo.link, port: 10838, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: CA_师_29, server: 108.181.22.161, port: 443, type: trojan, password: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, skip-cert-verify: true, udp: true}
+  - {name: CN_师_30, server: gz.daxun.cyou, port: 26042, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_师_31, server: other.kunlun-ppg.com, port: 10849, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_32, server: other.kunlun-ppg.com, port: 10849, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_33, server: other.binguo.link, port: 10842, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: CN_师_34, server: other.binguo.link, port: 10846, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: CN_师_35, server: us.kunlun-ppg.com, port: 10821, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: us.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_36, server: other.binguo.link, port: 10849, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: CN_师_37, server: other.kunlun-ppg.com, port: 10838, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_38, server: other.kunlun-ppg.com, port: 10842, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_39, server: other.binguo.link, port: 10841, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: US_师_40, server: camtlebb.76898102.xyz, port: 2095, type: vmess, uuid: 1f70e81d-6d32-3470-a7c4-2d53bf4761da, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /funsdfrh, ws-headers: {Host: camtlebc.76898102.xyz}, udp: true}
+  - {name: CN_师_41, server: other.kunlun-ppg.com, port: 10837, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_42, server: other.kunlun-ppg.com, port: 10841, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_43, server: other.kunlun-ppg.com, port: 10841, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_44, server: sg.kunlun-ppg.com, port: 10833, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: sg.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CA_师_45, server: 108.181.24.37, port: 443, type: trojan, password: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, skip-cert-verify: true, udp: true}
+  - {name: US_师_46, server: 141.193.68.81, port: 443, type: trojan, password: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, skip-cert-verify: true, udp: true}
+  - {name: CN_师_47, server: jp.kunlun-ppg.com, port: 10815, type: trojan, password: 2a8597eb-8d0d-43eb-9514-10a05cfe85af, sni: jp.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_48, server: other.binguo.link, port: 10837, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: US_师_49, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: 698115e4-1494-4f4a-85a9-76cd011d3ac6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/uubCdJtK, ws-headers: {Host: jp17aab72a7.chvsifetrj.xyz}, udp: true}
+  - {name: CN_师_50, server: other.kunlun-ppg.com, port: 10847, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_51, server: other.kunlun-ppg.com, port: 10844, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_52, server: other.kunlun-ppg.com, port: 10842, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_53, server: other.kunlun-ppg.com, port: 10839, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: US_师_55, server: hl.wxgqlfx.top, port: 443, type: vmess, uuid: 850f4317-364d-4acc-8bb9-05af74e69f1e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /850f4317-364d-4acc-8bb9-05af74e69f1e, ws-headers: {Host: hl.wxgqlfx.top}, udp: true}
+  - {name: CN_师_56, server: other.binguo.link, port: 10839, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: CN_师_57, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_58, server: other.kunlun-ppg.com, port: 10846, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: US_师_59, server: jd2.shabijichang.com, port: 80, type: vmess, uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jd2.shabijichang.com}, udp: true}
+  - {name: US_师_60, server: v14.583182.xyz, port: 8443, type: vmess, uuid: 93a70290-0c55-46ec-bc69-2f357a48d8c5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v14.583181.xyz}, udp: true}
+  - {name: US_师_61, server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: flkf2.shabijichang.com}, udp: true}
+  - {name: CN_师_62, server: us.binguo.link, port: 10820, type: trojan, password: 498e608a-7efa-4108-97f3-665c0f84f43b, sni: us.binguo.link, skip-cert-verify: true, udp: true}
+  - {name: US_师_63, server: tg.wxgqlfx883.xyz, port: 443, type: vmess, uuid: d534a674-174e-44af-8cce-b0853428f2bd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /d534a674-174e-44af-8cce-b0853428f2bd, ws-headers: {Host: tg.wxgqlfx883.xyz}, udp: true}
+  - {name: CN_师_65, server: other.kunlun-ppg.com, port: 10845, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: CN_师_66, server: 124.220.57.75, port: 80, type: vmess, uuid: 1b3dd95b-f6dc-4f20-97aa-3b365358419c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 124.220.57.75}, udp: true}
+  - {name: US_师_67, server: cdn.yifenjichang.top, port: 80, type: vmess, uuid: 62b024bb-3e45-41eb-e8ff-60502a4e791d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vui2, ws-headers: {Host: a3.mianfenyun012.eu.org}, udp: true}
+  - {name: US_师_68, server: cdn.yifenjichang.top, port: 443, type: vmess, uuid: 62b024bb-3e45-41eb-e8ff-60502a4e791d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /vui2, ws-headers: {Host: a3.mianfenyun012.eu.org}, udp: true}
+  - {name: PK_师_69, server: hk1-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 443, type: trojan, password: e5c65270-bef7-4d38-b8c1-03274edf545f, sni: hk1-reality.fp3kemyh-cm4s-2hak-2gb9-w3534umy2sq5.9d8f269f96b25232-759cbb36d6548597.kaufen, skip-cert-verify: true, udp: true}
+  - {name: HK_师_70, server: 0000:0000:0000:0000:0000:ffff:9ac2:023d, port: 80, type: vmess, uuid: 72943368-c361-4c09-ac31-8e2866cc0d72, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: cdn-apple-mena.haami14.online}, udp: true}
+  - {name: US_师_71, server: www.speedtest.net, port: 80, type: vmess, uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: it1.xv2ray.net}, udp: true}
+  - {name: US_师_72, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1696251522438, ws-headers: {Host: www.42077230.xyz}, udp: true}
+  - {name: CN_师_73, server: gz.daxun.cyou, port: 38027, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_师_74, server: gz.daxun.cyou, port: 26038, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_师_75, server: gz.daxun.cyou, port: 38015, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: DE_师_77, server: 3.120.63.163, port: 22222, type: trojan, password: telegram-id-directvpn, skip-cert-verify: true, udp: true}
+  - {name: CN_师_78, server: other.kunlun-ppg.com, port: 10848, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: US_师_79, server: 104.18.202.232, port: 80, type: vmess, uuid: 4d868558-0166-4083-baf0-720daf24f6e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: fi1.xv2ray.net}, udp: true}
+  - {name: US_师_80, server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1697376782879, ws-headers: {Host: www.19229362.xyz}, udp: true}
+  - {name: CN_师_81, server: other.kunlun-ppg.com, port: 10850, type: trojan, password: 50fb6d38-70a4-4290-a84c-52196cc9b942, sni: other.kunlun-ppg.com, skip-cert-verify: true, udp: true}
+  - {name: US_师_82, server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mrb2.shabijichang.com}, udp: true}
+  - {name: US_师_83, server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1696682720138, ws-headers: {Host: www.19229362.xyz}, udp: true}
+  - {name: CN_师_84, server: gz.daxun.cyou, port: 38005, type: vmess, uuid: ddb4e5b8-e52f-409a-8dbe-f1a47624a592, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(玉), server: cfcdn1.sanfencdn9.com, port: 2052, type: vmess, uuid: ece26ec7-bcfe-4845-8cf1-3d93abc19ce1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /video/nYAwpBbW, ws-headers: {Host: us5a3a71b5c.pkmkwvxqnn.xyz}, udp: true}
+  - {name: 美国(玉) 2, server: 156.225.67.234, port: 30000, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1698153002500, ws-headers: {Host: www.47734647.xyz}, udp: true}
+  - {name: 韩国(玉), server: cadld2.gophers.gay, port: 21106, type: vmess, uuid: 6713cd03-2cd4-49e9-9d8a-b768ee0a72fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cadld2.gophers.gay}, udp: true}
+  - {name: 美国(玉) 3, server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mm3.shabijichang.com}, udp: true}
+  - {name: 荷兰(玉), server: 156.225.67.234, port: 30000, type: vmess, uuid: 93503dd5-245a-4eb1-ae2a-57ab9f2b3c29, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1698239888914, ws-headers: {Host: www.47734647.xyz}, udp: true}
+  - {name: 美国(玉) 4, server: 0000:0000:0000:0000:0000:ffff:ceee:ed02, port: 443, type: vmess, uuid: 72943368-c361-4c09-ac31-8e2866cc0d72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/?ed=2048", ws-headers: {Host: tarik2.freedns.click}, udp: true}
+  - {name: 印度(玉), server: 104.26.8.44, port: 80, type: vmess, uuid: 5180444a-4756-43b4-960b-49eb9052e4e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.109420.xyz}, udp: true}
+  - {name: 美国(玉) 5, server: hdlb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hdlb2.shabijichang.com}, udp: true}
+  - {name: 美国(玉) 6, server: 156.225.67.104, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1698239888914, ws-headers: {Host: www.41758112.xyz}, udp: true}
+  - {name: 美国(玉) 7, server: jd2.shabijichang.com, port: 80, type: vmess, uuid: 56278a1a-c7cc-459f-b00c-3037e4f99590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jd2.shabijichang.com}, udp: true}
+  - {name: 美国(玉) 8, server: 156.225.67.104, port: 30000, type: vmess, uuid: 29a5d48e-24f1-48fd-a5e1-9a46cb31032f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1698153002500, ws-headers: {Host: www.41758112.xyz}, udp: true}
+  - {name: 德国(玉), server: 35.157.14.187, port: 22222, type: trojan, password: telegram-id-privatevpns, skip-cert-verify: true, udp: true}
+  - {name: 美国(玉) 9, server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: sbl2.shabijichang.com}, udp: true}
+  - {name: 印度(玉) 2, server: hdlb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hdlb2.shabijichang.com}, udp: true}
+  - {name: 印度(玉) 3, server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mm2.shabijichang.com}, udp: true}
+  - {name: 美国(玉) 10, server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1697376782879, ws-headers: {Host: www.19229362.xyz}, udp: true}
+  - {name: 美国(玉) 11, server: www.speedtest.net, port: 80, type: vmess, uuid: bf75108e-7bec-4fe0-8db9-3d4985dd3bd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: it1.xv2ray.net}, udp: true}
+  - {name: 美国(玉) 12, server: 107.167.16.85, port: 443, type: vmess, uuid: 7640a1e7-9701-428e-a4b2-19b3e7dd6f9f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/080822272914, ws-headers: {Host: www.51109057.xyz}, udp: true}
+  - {name: 荷兰(玉) 2, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1696251522438, ws-headers: {Host: www.42077230.xyz}, udp: true}
+  - {name: 美国(玉) 13, server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/1698239888914, ws-headers: {Host: www.42077230.xyz}, udp: true}

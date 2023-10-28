@@ -1,10 +1,84 @@
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  default-nameserver:
+    - 223.5.5.5
+    - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.linksys.com'
+    - '*.linksyssmartwifi.com'
+    - swscan.apple.com
+    - mesu.apple.com
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - '*.time.edu.cn'
+    - '*.ntp.org.cn'
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - +.music.163.com
+    - '*.126.net'
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - '*.kuwo.cn'
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - +.y.qq.com
+    - +.music.tc.qq.com
+    - aqqmusic.tc.qq.com
+    - +.stream.qqmusic.qq.com
+    - '*.xiami.com'
+    - +.music.migu.cn
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - +.xboxlive.com
+    - localhost.ptlogin2.qq.com
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - '*.mcdn.bilivideo.cn'
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+
 proxies:
-  - {"name":"mz1","type":"vless","server":"104.19.169.23","port":443,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
-  - {"name":"mz2","type":"vless","server":"104.19.13.217","port":443,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
-  - {"name":"mz3","type":"vless","server":"104.17.144.4","port":443,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
-  - {"name":"mz4","type":"vless","server":"104.18.146.26","port":443,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
-  - {"name":"mz5","type":"vless","server":"104.16.141.117","port":443,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
-  - {"name":"mz6","type":"vless","server":"104.18.174.81","port":443,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
+
   - {"name":"美国_2","type":"vless","server":"162.159.38.211","port":2087,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jp27.wang66.homes","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"jp27.wang66.homes"}}}
   - {"name":"美国_4","type":"vless","server":"162.159.38.211","port":2053,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jp27.wang66.homes","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"jp27.wang66.homes"}}}
   - {"name":"美国_5","type":"vless","server":"162.159.38.211","port":2083,"uuid":"a13df940-020c-465f-bc89-ee5279b5cd6a","tls":true,"servername":"jp27.wang66.homes","network":"ws","ws-opts":{"path":"/blue","headers":{"host":"jp27.wang66.homes"}}}
