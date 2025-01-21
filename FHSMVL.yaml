@@ -1884,6 +1884,8 @@ rules:
  - DOMAIN-SUFFIX,yahoo.com,国外媒体
  - DOMAIN-SUFFIX,yimg.com,国外媒体
 # 自定义部分 #
+ - DOMAIN-SUFFIX,x.com,国外媒体
+# 自定义部分 #
  - DOMAIN-KEYWORD,mercadolibre,🌍 全球直连
  - DOMAIN-KEYWORD,damaishuju,🌍 全球直连
  
