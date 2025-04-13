@@ -688,8 +688,6 @@ rules:
  - DOMAIN-KEYWORD,sci-hub,全局选择
  - DOMAIN-KEYWORD,spotify,全局选择
  - DOMAIN-KEYWORD,telegram,电报信息
- - DOMAIN-KEYWORD,twitter,推特
- - DOMAIN-SUFFIX,x.com,推特 
  - DOMAIN-KEYWORD,whatsapp,全局选择
  - DOMAIN-KEYWORD,youtube,全局选择
  - DOMAIN-SUFFIX,4sqi.net,全局选择
@@ -1885,11 +1883,14 @@ rules:
  - DOMAIN-SUFFIX,yahoo.com,国外媒体
  - DOMAIN-SUFFIX,yimg.com,国外媒体
 # 自定义部分 #
- - DOMAIN-SUFFIX,x.com,国外媒体
+ - DOMAIN-KEYWORD,twitter,推特
+ - DOMAIN-SUFFIX,x.com,推特
  - DOMAIN-SUFFIX,openai.com,国外媒体 
+ - DOMAIN-SUFFIX,indiamart.com
 # 自定义部分 #
  - DOMAIN-KEYWORD,mercadolibre,🌍 全球直连
  - DOMAIN-KEYWORD,damaishuju,🌍 全球直连
+
  
 # 自定义部分 #
  - MATCH,漏网之鱼
