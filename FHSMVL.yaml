@@ -689,6 +689,7 @@ rules:
  - DOMAIN-KEYWORD,spotify,全局选择
  - DOMAIN-KEYWORD,telegram,电报信息
  - DOMAIN-KEYWORD,twitter,推特
+ - DOMAIN-SUFFIX,x.com,推特 
  - DOMAIN-KEYWORD,whatsapp,全局选择
  - DOMAIN-KEYWORD,youtube,全局选择
  - DOMAIN-SUFFIX,4sqi.net,全局选择
