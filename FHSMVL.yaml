@@ -1882,6 +1882,7 @@ rules:
  - DOMAIN-SUFFIX,openai.com,ChatGPT
  - DOMAIN-SUFFIX,yahoo.com,国外媒体
  - DOMAIN-SUFFIX,yimg.com,国外媒体
+ - DOMAIN-SUFFIX,yudou123.top,国外媒体
 # 自定义部分 #
  - DOMAIN-KEYWORD,twitter,推特
  - DOMAIN-SUFFIX,x.com,推特
