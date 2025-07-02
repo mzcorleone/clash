@@ -9,28 +9,52 @@ proxies:
   - {"name":"mz8","type":"vless","server":"185.146.173.95","port":80,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
   - {"name":"mz9","type":"vless","server":"23.227.60.143","port":80,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
   - {"name":"mz10","type":"vless","server":"185.146.173.130","port":80,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
-  - {name: 日本(玉豆), server: v12.heduian.link, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
-  - {name: 美国(玉豆), server: v29.heduian.link, port: 30829, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
-  - {name: 美国(玉豆) 2, server: v24.heduian.link, port: 30824, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: v24.heduian.link}, udp: true}
-  - {name: 美国(玉豆) 3, server: 141.193.213.167, port: 2086, type: vmess, uuid: dc33ccac-f27b-494d-98c0-553742e23268, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /8qq37n268c4r728/us1, ws-headers: {Host: bpus1.ustimecsgo.xyz}, udp: true}
-  - {name: 美国(玉豆) 4, server: csgo.com, port: 2086, type: vmess, uuid: dc33ccac-f27b-494d-98c0-553742e23268, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /8qq37n268c4r728/us1, ws-headers: {Host: bpus1.ustimecsgo.xyz}, udp: true}
-  - {name: 美国(玉豆) 5, server: 206.119.175.172, port: 9997, type: vmess, uuid: ff93428d-712e-4bff-ad4b-a25f6f4dd6b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(玉豆), server: 120.198.71.218, port: 32915, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(玉豆) 6, server: 120.198.71.217, port: 58882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大(玉豆), server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: api100-core-quic-lf.amemv.com}, udp: true}
-  - {name: 加拿大(玉豆) 2, server: v40.heduian.link, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: api100-core-quic-lf.amemv.com}, udp: true}
-  - {name: 美国(玉豆) 7, server: v28.heduian.link, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
-  - {name: 加拿大(玉豆) 3, server: v8.heduian.link, port: 30808, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: v8.heduian.link}, udp: true}
-  - {name: 美国(玉豆) 8, server: 141.193.213.72, port: 2086, type: vmess, uuid: dc33ccac-f27b-494d-98c0-553742e23268, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: vmuk2fsfi2yv2bca.jjjiedian6j4tblb.com}, udp: true}
-  - {name: 美国(玉豆) 9, server: 111.26.109.79, port: 30828, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: ocbc.com}, udp: true}
-  - {name: 美国(玉豆) 10, server: 141.193.213.5, port: 2086, type: vmess, uuid: dc33ccac-f27b-494d-98c0-553742e23268, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: vmuk2fsfi2yv2bca.jjjiedian6j4tblb.com}, udp: true}
-  - {name: 美国(玉豆) 11, server: kkIuUytr.iRaN.pp.ua, port: 443, type: vmess, uuid: e9b4bdbd-cc5b-4a90-9616-ea0f1092ec7c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /VgtsOrriMf1sdep5KKSues, ws-headers: {Host: kkiuuytr.iran.pp.ua}, udp: true}
-  - {name: 美国(玉豆) 12, server: 141.193.213.199, port: 2086, type: vmess, uuid: dc33ccac-f27b-494d-98c0-553742e23268, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: vmuk2fsfi2yv2bca.jjjiedian6j4tblb.com}, udp: true}
-  - {name: 美国(玉豆) 13, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
-  - {name: 日本(玉豆) 2, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
-  - {name: 美国(玉豆) 14, server: SSsXXXCvBnmjKi.931.Pp.uA, port: 443, type: vmess, uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0FhUkqQUdxOhMB9JsgTazwz9, ws-headers: {Host: sssxxxcvbnmjki.931.pp.ua}, udp: true}
-  - {name: 美国(玉豆) 15, server: sSsdCVfBGNjkI.931.PP.Ua, port: 443, type: vmess, uuid: a4e8ec0a-75d0-4fc5-837a-4973ed3a9d3e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /14Fziqw1hYgCXNutkS5H, ws-headers: {Host: sssdcvfbgnjki.931.pp.ua}, udp: true}
-  - {name: 美国(玉豆) 16, server: v32.heduian.link, port: 30832, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
-  - {name: 美国(玉豆) 17, server: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, port: 21233, type: trojan, password: bcc58e88-e147-11ec-b286-f23c91cfbbc9, sni: 83242d49-sy41s0-szh3gf-ggww.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(玉豆) 18, server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: dozo01.flztjc.top, skip-cert-verify: true, udp: true}
-  - {name: 美国(玉豆) 19, server: 120.232.153.63, port: 37775, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(玉豆) M1, server: 120.198.71.217, port: 58882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(玉豆) M2, server: dozo01.flztjc.top, port: 8313, type: trojan, password: 2c605663-b89a-5734-a9d6-97d4743d72cf, sni: dozo01.flztjc.top, skip-cert-verify: true, udp: true}
+  - {name: 法国, server: d0dfa01d-sytz40-t1jamc-1fvdh.cu2.plebai.net, port: 15229, type: trojan, password: 9e1ddc04-073b-11ed-bd7c-f23c913c8d2b, sni: d0dfa01d-sytz40-t1jamc-1fvdh.cu2.plebai.net, skip-cert-verify: true, udp: true}
+  - {name: 法国 2, server: c5ce6f77-sytz40-ta64ri-1qzi1.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 8f99107c-f091-11ee-9935-f23c9164ca5d, sni: c5ce6f77-sytz40-ta64ri-1qzi1.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 法国 3, server: a784fd6f-sytz40-t2c3sq-1spnr.cu2.plebai.net, port: 15229, type: trojan, password: 127e3f92-f714-11ef-bbb0-f23c91cfbbc9, sni: a784fd6f-sytz40-t2c3sq-1spnr.cu2.plebai.net, skip-cert-verify: true, udp: true}
+  - {name: 美国, server: 104.21.6.179, port: 443, type: trojan, password: 6757b7d6-fa32-4708-b5d1-30e3cf928b51, skip-cert-verify: true, udp: true}
+  - {name: 法国 4, server: 274ba953-sytz40-t09za6-1m0fq.cm5.cnkuaishou.com, port: 27235, type: trojan, password: a698c4a6-c3c9-11ee-9693-f23c91cfbbc9, sni: 274ba953-sytz40-t09za6-1m0fq.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 2, server: 120.198.71.217, port: 46759, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 3, server: 120.233.71.140, port: 52251, type: ss, cipher: aes-128-gcm, password: tmd8427, udp: true}
+  - {name: 美国 4, server: 192.9.137.193, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 法国 5, server: 4edfad82-sytz40-tcmken-19les.cm5.cnkuaishou.com, port: 27235, type: trojan, password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b, sni: 4edfad82-sytz40-tcmken-19les.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 5, server: 192.9.137.193, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 法国 6, server: 0a7a80dc-sytz40-szxh9w-46gc.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 225d1cca-d744-11ef-b790-f23c91cfbbc9, sni: 0a7a80dc-sytz40-szxh9w-46gc.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 6, server: 183.236.51.37, port: 41024, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 法国 7, server: 83edf522-sytz40-t4qa9y-g43g.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 6ddb6a68-d5f5-ca30-3943-cf0c9876d50c, sni: 83edf522-sytz40-t4qa9y-g43g.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 7, server: 104.21.23.210, port: 443, type: vmess, uuid: c8eac4b7-95ba-4ce0-920d-c3279eb3b391, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /eq3sPevOtjqpcA4KNAXX, ws-headers: {Host: ooo0987654.932.pp.ua}, udp: true}
+  - {name: 法国 8, server: 04000a76-sytz40-tb74a6-1q9g2.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 9d80dd14-ac44-11ee-a116-f23c9164ca5d, sni: 04000a76-sytz40-tb74a6-1q9g2.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 8, server: 6857dd60-sz1ds0-t3l98h-2gok.d.volczijie.com, port: 4135, type: vmess, uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 法国 9, server: 4720bf9e-sytz40-t0r7l4-1ruih.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 3549abda-3854-11ef-b71e-f23c9164ca5d, sni: 4720bf9e-sytz40-t0r7l4-1ruih.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 9, server: 120.198.71.217, port: 46759, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大, server: 111.26.109.79, port: 30840, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: api100-core-quic-lf.amemv.com}, udp: true}
+  - {name: 美国 10, server: x10.859885.xYz, port: 443, type: vmess, uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0FhUkqQUdxOhMB9JsgTazwz9, ws-headers: {Host: x10.859885.xyz}, udp: true}
+  - {name: 美国 11, server: x9.859885.XYz, port: 443, type: vmess, uuid: da128246-33b0-4c88-a44e-d91e9e0a1e05, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /0FhUkqQUdxOhMB9JsgTazwz9, ws-headers: {Host: x9.859885.xyz}, udp: true}
+  - {name: 韩国, server: 45.134.21.8, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国 2, server: 121.149.228.125, port: 12315, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 12, server: v9.heduian.link, port: 30809, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /oooo, ws-headers: {Host: baidu.com}, udp: true}
+  - {name: 荷兰, server: 5.35.68.249, port: 2053, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国 3, server: 121.149.228.125, port: 12315, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 13, server: 154.26.181.30, port: 45956, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国 4, server: 121.178.51.126, port: 50000, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 14, server: 120.198.71.217, port: 58882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国 5, server: 121.178.51.126, port: 50000, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 15, server: 120.198.71.217, port: 58882, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国 16, server: 45.67.215.217, port: 2087, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 17, server: 154.26.181.30, port: 45956, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 18, server: 135.84.74.254, port: 2083, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 19, server: 192.200.160.169, port: 2096, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国 6, server: 210.178.96.12, port: 50003, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国 7, server: 210.178.96.12, port: 50003, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 20, server: 154.197.64.104, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯, server: 195.58.49.147, port: 10981, type: ss, cipher: aes-256-gcm, password: 560b7d65c1f4b12a, udp: true}
+  - {name: 美国 21, server: duke.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: duke.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 美国 22, server: 199.34.228.178, port: 8443, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 23, server: 67.226.221.12, port: 80, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 美国 24, server: duke.ns.cloudflare.com, port: 443, type: trojan, password: Aimer, sni: duke.ns.cloudflare.com, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯 2, server: 176.32.35.68, port: 19021, type: ss, cipher: aes-256-gcm, password: 4194ce5b1f36f660, udp: true}
+  - {name: 韩国 8, server: 125.136.221.63, port: 50000, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 韩国 9, server: 125.136.221.63, port: 50000, type: trojan, password: Aimer, skip-cert-verify: true, udp: true}
+  - {name: 法国 10, server: f4bbb283-sytz40-t01cuj-1itli.cm5.cnkuaishou.com, port: 27235, type: trojan, password: 4088a148-dbec-11ec-bd7c-f23c913c8d2b, sni: f4bbb283-sytz40-t01cuj-1itli.cm5.cnkuaishou.com, skip-cert-verify: true, udp: true}
