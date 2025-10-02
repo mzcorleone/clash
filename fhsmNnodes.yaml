@@ -9,10 +9,125 @@ proxies:
   - {"name":"mz8","type":"vless","server":"185.146.173.95","port":80,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
   - {"name":"mz9","type":"vless","server":"23.227.60.143","port":80,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
   - {"name":"mz10","type":"vless","server":"185.146.173.130","port":80,"uuid":"52af396d-6b51-44b8-b3bc-511389ff7899","tls":false,"servername":"mz-vless.mzcorleone2020.workers.dev","network":"ws","ws-opts":{"path":"/?ed=2048","headers":{"host":"mz-vless.mzcorleone2020.workers.dev"}}}
-  - {name: 美国(yudou123.top 玉豆免费节点), server: pupas-shirting-unsung.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: p78naCf2EfOlRSLTX0wFVx, udp: true}
-  - {name: 美国(yudou123.top 玉豆免费节点) 2, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: RFK38Cg7APneSB5cWDcpbm, udp: true}
-  - {name: 美国(yudou123.top 玉豆免费节点) 3, server: switcher-nick-croquet.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 9tqhMdIrTkgQ46PvhyAtMH, udp: true}
-  - {name: 美国(yudou123.top 玉豆免费节点) 4, server: HHhjjMKi.457.PP.Ua, port: 443, type: vmess, uuid: 9f1673a0-688a-4f31-85fa-af40b03c708a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hepNwpzuxszIxZMQZRJ, ws-headers: {Host: HHhjjMKi.457.PP.Ua}, udp: true}
-  - {name: 美国(yudou123.top 玉豆免费节点) 5, server: HhHjJMki.457.pP.uA, port: 443, type: vmess, uuid: da7e8bcf-b195-4d69-a667-24f9a7673a11, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hepNwpzuxszIxZMQZRJ, ws-headers: {Host: HhHjJMki.457.pP.uA}, udp: true}
-  - {name: 美国(yudou123.top 玉豆免费节点) 6, server: 2001:bc8:32d7:302::10, port: 44579, type: vmess, uuid: 8e34e170-13ae-4892-9d20-05962acc9f84, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 2001:bc8:32d7:302::10}, udp: true}
-  - {name: 美国(yudou123.top 玉豆免费节点) 7, server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: 美国(yu), server: 193.9.49.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 2, server: 195.13.44.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 3, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 澳洲(yu), server: 192.65.217.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu), server: 195.26.229.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 2, server: 185.156.19.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 4, server: 188.42.145.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 5, server: 193.124.224.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 3, server: 194.36.55.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 6, server: 199.181.197.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 7, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 8, server: 195.13.45.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 9, server: 185.148.106.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 10, server: 199.181.197.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 11, server: 185.251.83.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 12, server: 185.148.105.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 13, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 澳洲(yu) 2, server: 192.65.217.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 14, server: 185.251.80.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 西班牙(yu), server: 185.251.81.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 荷兰(yu), server: 188.164.248.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 15, server: 185.251.82.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 16, server: 185.251.83.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 4, server: 185.156.19.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 17, server: 193.9.49.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 18, server: 185.148.106.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 19, server: 185.148.105.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 5, server: 185.156.19.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 20, server: 195.13.44.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 21, server: 185.251.83.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 22, server: 185.251.81.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 23, server: 185.148.106.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 24, server: 185.18.184.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 6, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 荷兰(yu) 2, server: 188.164.248.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 7, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 25, server: 185.148.105.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 26, server: 209.46.30.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 法国(yu), server: 185.7.240.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 27, server: 185.148.105.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 28, server: 185.238.228.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 29, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 8, server: 195.26.229.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(yu), server: 185.18.184.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 30, server: 185.59.218.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 31, server: 193.9.49.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 32, server: 185.251.81.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 荷兰(yu) 3, server: 188.164.248.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 加拿大(yu), server: 205.233.181.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 33, server: 185.251.82.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 34, server: 195.13.45.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 35, server: 195.13.44.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 9, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 36, server: 188.42.145.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 法国(yu) 2, server: 185.7.240.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 法国(yu) 3, server: 185.7.240.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 澳洲(yu) 3, server: 192.65.217.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 西班牙(yu) 2, server: 185.251.83.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 37, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 38, server: 185.251.82.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 39, server: 199.68.156.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 40, server: 185.251.83.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 41, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 42, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 德国(yu), server: 185.16.110.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 43, server: 188.42.145.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 44, server: 192.200.160.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 45, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 46, server: 195.13.45.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 47, server: 199.34.230.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 48, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 49, server: 199.34.230.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 50, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 51, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 52, server: 192.0.63.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 53, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 54, server: 212.183.88.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 55, server: 199.34.230.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 56, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 57, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 58, server: 199.68.156.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 法国(yu) 4, server: 185.7.240.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 59, server: 194.76.18.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 60, server: 185.251.83.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 德国(yu) 2, server: 185.16.110.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 10, server: 194.36.55.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 荷兰(yu) 4, server: 188.164.248.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 德国(yu) 3, server: 185.16.110.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 日本(yu), server: arxfw2b78fi2q9hzylhn.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Nk9asglDzHzjktVzTkvhaA, udp: true}
+  - {name: 美国(yu) 61, server: 183.240.245.242, port: 33331, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 62, server: hackney-latest-strike.freesocks.work, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XUMTygEM1jVYIvysXKqA5T, udp: true}
+  - {name: 美国(yu) 63, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 64, server: 216.24.57.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 65, server: 209.94.90.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 66, server: 199.34.229.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 67, server: 192.0.54.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 68, server: 216.24.57.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 69, server: 192.200.160.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 70, server: 216.24.57.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 71, server: 194.76.18.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 72, server: 212.183.88.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 73, server: 199.68.156.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 74, server: 193.9.49.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 75, server: 193.9.49.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 76, server: 198.62.62.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 77, server: 193.124.224.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 78, server: 195.13.44.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 79, server: 198.62.62.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 11, server: 195.26.229.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 80, server: 185.148.105.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 81, server: 198.62.62.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 82, server: 185.59.218.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 12, server: 194.36.55.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 83, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 英国(yu) 13, server: 195.26.229.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 84, server: 195.13.45.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 85, server: 188.42.145.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 加拿大(yu) 2, server: 205.233.181.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 86, server: 185.176.24.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 87, server: 199.181.197.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 美国(yu) 88, server: 188.164.248.87, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
+  - {name: 澳洲(yu) 4, server: 192.65.217.195, port: 2096, type: trojan, password: slch2024, skip-cert-verify: true, udp: true}
