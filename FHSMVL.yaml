@@ -1887,6 +1887,7 @@ rules:
  - DOMAIN-KEYWORD,twitter,推特
  - DOMAIN-SUFFIX,x.com,推特
  - DOMAIN-SUFFIX,grok.com,推特
+ - DOMAIN-SUFFIX,x.ai,推特
  - DOMAIN-SUFFIX,openai.com,国外媒体
  - DOMAIN-SUFFIX,indiamart.com,国外媒体
  - DOMAIN-SUFFIX,podbean.com,国外媒体 
