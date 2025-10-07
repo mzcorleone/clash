@@ -265,3 +265,95 @@ proxies:
   - {name: 🇸🇬 新加坡_253 | Twitter节点狂魔, server: wangcai253.cloudflare.182682.xyz, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, tfo: false, skip-cert-verify: false, servername: vless-10.webn.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: "Twitter节点狂魔 /?ed=2560", headers: {Host: vless-10.webn.cc}}}
   - {name: 🇸🇬 新加坡_254 | Twitter节点狂魔, server: wangcai254.cloudflare.182682.xyz, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, tfo: false, skip-cert-verify: false, servername: vless-10.webn.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: "Twitter节点狂魔 /?ed=2560", headers: {Host: vless-10.webn.cc}}}
   - {name: 🇸🇬 新加坡_255 | Twitter节点狂魔, server: wangcai255.cloudflare.182682.xyz, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, tfo: false, skip-cert-verify: false, servername: vless-10.webn.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: "Twitter节点狂魔 /?ed=2560", headers: {Host: vless-10.webn.cc}}}
+
+  - name: "🇺🇸US-147.182.224.102-12778"
+    type: trojan
+    server: 147.182.224.102
+    port: 12340
+    password: "example_password" # 请从源仓库获取实际密码
+    sni: "example.com" # 请从源仓库获取实际SNI
+    skip-cert-verify: false
+
+  - name: "🇨🇦CA-79.127.233.170-0320"
+    type: ss
+    server: 79.127.233.170
+    port: 990
+    cipher: aes-256-gcm
+    password: "example_password" # 请从源仓库获取实际密码
+
+  - name: "🚀RELAY-104.21.95.59-1068"
+    type: vmess
+    server: 104.21.95.59
+    port: 443
+    uuid: "example_uuid" # 请从源仓库获取实际UUID
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "example.com" # 请从源仓库获取实际Host
+
+  - name: "🇨🇦CA-79.127.233.170-0297"
+    type: ss
+    server: 79.127.233.170
+    port: 989
+    cipher: aes-256-gcm
+    password: "example_password" # 请从源仓库获取实际密码
+
+  - name: "🚀RELAY-104.21.95.59-1069"
+    type: vmess
+    server: 104.21.95.59
+    port: 443
+    uuid: "example_uuid" # 请从源仓库获取实际UUID
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "example.com" # 请从源仓库获取实际Host
+
+  - name: "🇺🇸US-104.192.226.106-0274"
+    type: ss
+    server: 104.192.226.106
+    port: 990
+    cipher: aes-256-gcm
+    password: "example_password" # 请从源仓库获取实际密码
+
+  - name: "🚀US-15.204.103.7-7623"
+    type: vmess
+    server: 15.204.103.7
+    port: 443
+    uuid: "example_uuid" # 请从源仓库获取实际UUID
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: "/ws"
+      headers:
+        Host: "example.com" # 请从源仓库获取实际Host
+
+  - name: "🇺🇸US-104.192.226.106-0313"
+    type: ss
+    server: 104.192.226.106
+    port: 989
+    cipher: aes-256-gcm
+    password: "example_password" # 请从源仓库获取实际密码
+
+  - name: "🇺🇸US-156.146.38.169-0271"
+    type: ss
+    server: 156.146.38.169
+    port: 443
+    cipher: aes-256-gcm
+    password: "example_password" # 请从源仓库获取实际密码
+
+  - name: "🇺🇸US-156.146.38.167-0273"
+    type: ss
+    server: 156.146.38.167
+    port: 443
+    cipher: aes-256-gcm
+    password: "example_password" # 请从源仓库获取实际密码  
