@@ -1886,6 +1886,7 @@ rules:
 # 自定义部分 #
  - DOMAIN-KEYWORD,twitter,推特
  - DOMAIN-SUFFIX,x.com,推特
+ - DOMAIN-SUFFIX,grok.com,xAI 
  - DOMAIN-SUFFIX,openai.com,国外媒体 
  - DOMAIN-SUFFIX,indiamart.com,国外媒体
  - DOMAIN-SUFFIX,podbean.com,国外媒体 
