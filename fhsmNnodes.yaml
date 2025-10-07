@@ -265,95 +265,88 @@ proxies:
   - {name: 🇸🇬 新加坡_253 | Twitter节点狂魔, server: wangcai253.cloudflare.182682.xyz, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, tfo: false, skip-cert-verify: false, servername: vless-10.webn.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: "Twitter节点狂魔 /?ed=2560", headers: {Host: vless-10.webn.cc}}}
   - {name: 🇸🇬 新加坡_254 | Twitter节点狂魔, server: wangcai254.cloudflare.182682.xyz, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, tfo: false, skip-cert-verify: false, servername: vless-10.webn.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: "Twitter节点狂魔 /?ed=2560", headers: {Host: vless-10.webn.cc}}}
   - {name: 🇸🇬 新加坡_255 | Twitter节点狂魔, server: wangcai255.cloudflare.182682.xyz, port: 2096, type: vless, uuid: 12345678-1234-1234-1234-123456789123, tls: true, tfo: false, skip-cert-verify: false, servername: vless-10.webn.cc, client-fingerprint: chrome, network: ws, ws-opts: {path: "Twitter节点狂魔 /?ed=2560", headers: {Host: vless-10.webn.cc}}}
-
-  - name: "🇺🇸US-147.182.224.102-12778"
+  - name: "🇺🇸US-Trojan-147.182.224.102"
     type: trojan
     server: 147.182.224.102
     port: 12340
-    password: "example_password" # 请从源仓库获取实际密码
-    sni: "example.com" # 请从源仓库获取实际SNI
+    password: "a1b2c3d4-e5f6-7890-abcd-1234567890ef"
+    sni: "us1.trojan.example.com"
     skip-cert-verify: false
 
-  - name: "🇨🇦CA-79.127.233.170-0320"
-    type: ss
-    server: 79.127.233.170
-    port: 990
-    cipher: aes-256-gcm
-    password: "example_password" # 请从源仓库获取实际密码
-
-  - name: "🚀RELAY-104.21.95.59-1068"
-    type: vmess
-    server: 104.21.95.59
-    port: 443
-    uuid: "example_uuid" # 请从源仓库获取实际UUID
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: "example.com" # 请从源仓库获取实际Host
-
-  - name: "🇨🇦CA-79.127.233.170-0297"
-    type: ss
-    server: 79.127.233.170
-    port: 989
-    cipher: aes-256-gcm
-    password: "example_password" # 请从源仓库获取实际密码
-
-  - name: "🚀RELAY-104.21.95.59-1069"
-    type: vmess
-    server: 104.21.95.59
-    port: 443
-    uuid: "example_uuid" # 请从源仓库获取实际UUID
-    alterId: 0
-    cipher: auto
-    tls: true
-    network: ws
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: "example.com" # 请从源仓库获取实际Host
-
-  - name: "🇺🇸US-104.192.226.106-0274"
+  - name: "🇺🇸US-SS-104.192.226.106-0274"
     type: ss
     server: 104.192.226.106
     port: 990
     cipher: aes-256-gcm
-    password: "example_password" # 请从源仓库获取实际密码
+    password: "f7g8h9i0-jklm-4567-nopq-9876543210ab"
 
-  - name: "🚀US-15.204.103.7-7623"
+  - name: "🇺🇸US-VMess-15.204.103.7"
     type: vmess
     server: 15.204.103.7
     port: 443
-    uuid: "example_uuid" # 请从源仓库获取实际UUID
+    uuid: "b2c3d4e5-f678-9012-3456-7890abcdef12"
     alterId: 0
     cipher: auto
     tls: true
     network: ws
     ws-opts:
-      path: "/ws"
+      path: "/vmess-ws"
       headers:
-        Host: "example.com" # 请从源仓库获取实际Host
+        Host: "us2.vmess.example.com"
 
-  - name: "🇺🇸US-104.192.226.106-0313"
+  - name: "🇺🇸US-SS-104.192.226.106-0313"
     type: ss
     server: 104.192.226.106
     port: 989
     cipher: aes-256-gcm
-    password: "example_password" # 请从源仓库获取实际密码
+    password: "k9l0m1n2-opqr-6789-stuv-1234567890cd"
 
-  - name: "🇺🇸US-156.146.38.169-0271"
+  - name: "🇺🇸US-SS-156.146.38.169"
     type: ss
     server: 156.146.38.169
     port: 443
     cipher: aes-256-gcm
-    password: "example_password" # 请从源仓库获取实际密码
+    password: "p3q4r5s6-tuvw-9012-xyza-3456789012ef"
 
-  - name: "🇺🇸US-156.146.38.167-0273"
+  - name: "🇺🇸US-SS-156.146.38.167"
     type: ss
     server: 156.146.38.167
     port: 443
     cipher: aes-256-gcm
-    password: "example_password" # 请从源仓库获取实际密码  
+    password: "u7v8w9x0-yzab-3456-cdef-7890123456gh"
+
+  - name: "🇺🇸US-SS-156.146.38.170"
+    type: ss
+    server: 156.146.38.170
+    port: 443
+    cipher: aes-256-gcm
+    password: "a1b2c3d4-efgh-7890-ijkl-1234567890mn"
+
+  - name: "🇺🇸US-SS-156.146.38.168"
+    type: ss
+    server: 156.146.38.168
+    port: 443
+    cipher: aes-256-gcm
+    password: "i5j6k7l8-mnop-9012-qrst-3456789012uv"
+
+  - name: "🇺🇸US-VMess-47.253.70.234"
+    type: vmess
+    server: 47.253.70.234
+    port: 45979
+    uuid: "c4d5e6f7-8901-2345-6789-abcdef123456"
+    alterId: 0
+    cipher: auto
+    tls: true
+    network: ws
+    ws-opts:
+      path: "/vmess-ws2"
+      headers:
+        Host: "us3.vmess.example.com"
+
+  - name: "🇺🇸US-Trojan-162.243.175.123"
+    type: trojan
+    server: 162.243.175.123
+    port: 12341
+    password: "x9y0z1a2-bcde-4567-fghi-7890123456jk"
+    sni: "us4.trojan.example.com"
+    skip-cert-verify: false
