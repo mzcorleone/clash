@@ -1895,6 +1895,7 @@ rules:
  - DOMAIN-SUFFIX,xiuluodm.com,国外媒体
  - DOMAIN-SUFFIX,temu.com,国外媒体
  - DOMAIN-SUFFIX,nthlink.com,国外媒体
+ - DOMAIN-SUFFIX,etsy.com,国外媒体
 # 自定义部分 #
  - DOMAIN-KEYWORD,mercadolibre,🌍 全球直连
  - DOMAIN-KEYWORD,damaishuju,🌍 全球直连
